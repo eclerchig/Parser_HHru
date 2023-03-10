@@ -1,0 +1,134 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Парсер{% endblock %}
+
+{% block js_include %}
+    <script>
+    function get_cloud_tokens() {
+        ranges = []
+        ranges[0] = $("#range1").val();
+        ranges[1] = $("#range2").val()
+            $.ajax({
+                type: 'GET',
+                dataType: 'json',
+                data: {ranges: ranges} ,
+                url: "{% url 'update_clouds_tokens' %}",
+                success: function (response) {
+                    document.getElementById("token_clouds").innerHTML = response.clouds_code;
+                    $("#tokens").removeClass("not-visible")
+                },
+                error: function (response) {
+                    alert('Ошибка get_cloud_tokens()')
+                }
+            });
+    }
+
+    function tag_click(text) {
+        $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            data: {token: text} , // get the form data
+            url: "{% url 'update_charts' %}",
+            success: function (response) {
+                $("#charts").removeClass("not-visible")
+                $("#table").removeClass("not-visible")
+                div_charts = document.getElementById("charts")
+                Plotly.newPlot(div_charts, response.bar_data, response.bar_layout);
+                div_table = document.getElementById("table")
+                Plotly.newPlot(div_table, response.table_data);
+            },
+            error: function (response) {
+                alert('Ошибка tag_click()')
+            }
+        });
+        var graphDiv = document.getElementById('charts')
+        Plotly.newPlot(graphDiv, data, layout);
+    }
+
+    function showSpinner(){
+        $("#tokens").addClass("not-visible")
+        $("#charts").addClass("not-visible")
+        $("#table").addClass("not-visible")
+        $("#spinner_box").removeClass("not-visible")
+    }
+
+    </script>
+{% endblock %}
+
+{% block body %}
+    <div id="div-to-parse" class="d-grid gap-2 col-3 mx-auto mt-4">
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="parse btn btn-primary" name="to_parse" onclick="showSpinner()">ОБНОВИТЬ ДАННЫЕ</button>
+        </form>
+    </div>
+
+    <div id="spinner_box" class="text-center mx-auto col-10 mt-3
+    {% if not display.spinner %}
+        not-visible
+    {% endif %}">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <div class="col-8 mx-auto mt-4
+    {% if not display.tokens %}
+        not-visible
+    {% endif %}>" id="tokens">
+        <h1 class="title fw-light">ТОКЕНЫ</h1>
+        <div class="col-10 mx-auto">
+            <span class="title_range_left">Менее популярные</span>
+            <span class="title_range_right">Более популярные</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="slider mx-auto mt-3 col-10" id="slider-distance">
+            <div>
+                <div class="inverse-left" style="width:0%;"></div>
+                <div class="inverse-right" style="width:0%;"></div>
+                <div class="range" style="left:0%;right:0%;"></div>
+                <span class="thumb" style="left:0%;"></span>
+                <span class="thumb" style="left:100%;"></span>
+                <div class="sign" style="left:0%;">
+                    <span id="value1">0</span>
+                </div>
+                <div class="sign" style="left:100%;">
+                    <span id="value2">{{range_slider}}</span>
+                </div>
+                <div class = "range_bottom" style="left:0%;right:100%;"></div>
+            </div>
+            <input id="range1" type="range" tabindex="0" value="0" max="{{range_slider}}" min="0" step="1" oninput="
+                this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[1].style.width=value+'%';
+                children[5].style.left=value+'%';
+                children[7].style.left=value+'%';children[11].style.left=value+'%';
+                children[11].childNodes[1].innerHTML=this.value;
+                get_cloud_tokens();"
+
+            />
+            <input id="range2" type="range" tabindex="0" value="{{range_slider}}" max="{{range_slider}}" min="0" step="1" oninput="
+                this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[3].style.width=(100-value)+'%';
+                children[5].style.right=(100-value)+'%';
+                children[9].style.left=value+'%';
+                children[13].style.left=value+'%';
+                children[13].childNodes[1].innerHTML=this.value;
+                get_cloud_tokens();"
+            />
+            </div>
+        <div class = "mx-auto mt-5 col-10" id="token_clouds">
+            {{clouds_code | safe}}
+        </div>
+    </div>
+    <div class="col-8 mx-auto mt-4" id="charts"></div>
+    <div class="col-8 mx-auto" id="table"></div>
+{% endblock %}
+
+{% block styles %}
+    <style>
+        #tokens {
+            display: {{display.tokens}};
+        }
+    </style>
+{% endblock %}

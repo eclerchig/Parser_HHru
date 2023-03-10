@@ -1,0 +1,266 @@
+{
+    "items": [
+        {
+            "id": "77882177",
+            "premium": false,
+            "name": "Разработчик Python (Стажер)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "54",
+                "name": "Красноярск",
+                "url": "https://api.hh.ru/areas/54"
+            },
+            "salary": null,
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-03-10T12:13:41+0300",
+            "created_at": "2023-03-10T12:13:41+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77882177",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/77882177?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/77882177",
+            "relations": [],
+            "employer": {
+                "id": "8550",
+                "name": "Центр финансовых технологий",
+                "url": "https://api.hh.ru/employers/8550",
+                "alternate_url": "https://hh.ru/employer/8550",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/690133.gif",
+                    "240": "https://hhcdn.ru/employer-logo/3201665.png",
+                    "90": "https://hhcdn.ru/employer-logo/3201664.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8550",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "ШИФТ — это предложение группы компаний ЦФТ для активных и целеустремленных людей, желающих развиваться в ИТ! Тебе потребуются базовые знания в...",
+                "responsibility": "Познакомиться с лучшими практиками командной работы и особенностями интеграции ML моделей в боевые сервисы. Работать над реальными проектами. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "96",
+                    "name": "Программист, разработчик"
+                }
+            ],
+            "accept_incomplete_resumes": false
+        },
+        {
+            "id": "77885287",
+            "premium": false,
+            "name": "Главный разработчик Python",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "54",
+                "name": "Красноярск",
+                "url": "https://api.hh.ru/areas/54"
+            },
+            "salary": null,
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-03-10T12:27:21+0300",
+            "created_at": "2023-03-10T12:27:21+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77885287",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/77885287?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/77885287",
+            "relations": [],
+            "employer": {
+                "id": "42954",
+                "name": "НПФ ЭВОЛЮЦИЯ",
+                "url": "https://api.hh.ru/employers/42954",
+                "alternate_url": "https://hh.ru/employer/42954",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/962564.png",
+                    "90": "https://hhcdn.ru/employer-logo/5384284.png",
+                    "240": "https://hhcdn.ru/employer-logo/5384285.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=42954",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Высшее образование (техническое). Опыт работы от 1 года. Отличное знание Python. Опыт разработки web-приложений и API. Знание JavaScript, CSS...",
+                "responsibility": "Участие в разработке архитектуры и принятии решений по выбору технологий. Развитие надёжных, производительных, масштабируемых решений. Участие в мероприятиях по обеспечению..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "96",
+                    "name": "Программист, разработчик"
+                }
+            ],
+            "accept_incomplete_resumes": false
+        },
+        {
+            "id": "77019389",
+            "premium": false,
+            "name": "Middle Python разработчик",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "54",
+                "name": "Красноярск",
+                "url": "https://api.hh.ru/areas/54"
+            },
+            "salary": {
+                "from": 120000,
+                "to": 180000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-02-15T14:35:08+0300",
+            "created_at": "2023-02-15T14:35:08+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77019389",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/77019389?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/77019389",
+            "relations": [],
+            "employer": {
+                "id": "3203124",
+                "name": "Sibdev",
+                "url": "https://api.hh.ru/employers/3203124",
+                "alternate_url": "https://hh.ru/employer/3203124",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/2658382.png",
+                    "90": "https://hhcdn.ru/employer-logo/2658381.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/554227.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3203124",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Имеет опыт коммерческой разработки от 1,5 года, навык декомпозиции и оценки задач. Обладает уверенным знанием Python, Django, имеет опыт...",
+                "responsibility": "Разрабатывал тесты. Работал с инструментами отладки. Много проектирования и новой разработки, сложные и интересные задачи. Плавное введение в процессы, индивидуальный..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "96",
+                    "name": "Программист, разработчик"
+                }
+            ],
+            "accept_incomplete_resumes": false
+        },
+        {
+            "id": "75800266",
+            "premium": false,
+            "name": "Преподаватель онлайн-курсов Python / Scratch / Геймдизайн для детей (групповые занятия)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "54",
+                "name": "Красноярск",
+                "url": "https://api.hh.ru/areas/54"
+            },
+            "salary": null,
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-02-10T23:09:07+0300",
+            "created_at": "2023-02-10T23:09:07+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=75800266",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/75800266?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/75800266",
+            "relations": [],
+            "employer": {
+                "id": "2657797",
+                "name": "Алгоритмика",
+                "url": "https://api.hh.ru/employers/2657797",
+                "alternate_url": "https://hh.ru/employer/2657797",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/883268.png",
+                    "240": "https://hhcdn.ru/employer-logo/3973780.png",
+                    "90": "https://hhcdn.ru/employer-logo/3973779.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2657797",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Владение языком программирования Python, Scratch, Геймдизайн . Опыт работы с детьми. Умение преподавать: понятно объяснять и находить общий язык с учениками.",
+                "responsibility": "Проводить 3 групповых занятия с понедельника по среду в одно и то же время в интервале с 16-21 по..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [
+                {
+                    "id": "from_four_to_six_hours_in_a_day",
+                    "name": "Можно работать сменами по 4–6 часов в день"
+                }
+            ],
+            "working_time_modes": [
+                {
+                    "id": "start_after_sixteen",
+                    "name": "Можно начинать работать после 16:00"
+                }
+            ],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "132",
+                    "name": "Учитель, преподаватель, педагог"
+                }
+            ],
+            "accept_incomplete_resumes": false
+        }
+    ],
+    "found": 4,
+    "pages": 1,
+    "per_page": 100,
+    "page": 0,
+    "clusters": null,
+    "arguments": null,
+    "alternate_url": "https://hh.ru/search/vacancy?area=54&enable_snippets=true&items_on_page=100&text=NAME%3APython"
+}
