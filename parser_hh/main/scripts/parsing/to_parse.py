@@ -9,8 +9,8 @@ import aiohttp, asyncio
 import time
 
 PATH_JSON_FILES = os.path.join(os.path.dirname(__file__), '..\\..\\..\\docs\\')
-
-start_time = time.time()
+HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.12785 YaBrowser/13.12.1599.12785 Safari/537.36'}
+START_TIME = time.time()
 
 async def get_page(current_page: int, session: aiohttp.ClientSession):
     params = {
@@ -19,7 +19,7 @@ async def get_page(current_page: int, session: aiohttp.ClientSession):
         'schedule': 'remote',
         'page': current_page
     }
-    resp = await session.get('https://api.hh.ru/vacancies', data=params)
+    resp = await session.get('https://api.hh.ru/vacancies', data=params, headers=HEADER)
     if resp.status == 200:
         print(f'[INFO] GET PAGE: {current_page+1}')
         num_files = len(os.listdir(os.path.join(PATH_JSON_FILES, 'pagination\\')))
@@ -28,21 +28,21 @@ async def get_page(current_page: int, session: aiohttp.ClientSession):
         f = open(nextFileName, mode='w', encoding='utf8')
         f.write(json.dumps(json_page, ensure_ascii=False, indent=4))
         f.close()
-        return json_page
+        return json_page, current_page+1
     else:
-        return {}
+        return {}, current_page+1
 
 async def get_vacancies(page: int, session: aiohttp.ClientSession):
-    page_json = await get_page(page, session)
+    page_json, current_page = await get_page(page, session)
     for item in page_json['items']:
+        resp = await session.get(item['url'], headers=HEADER)
+        json_vac = await resp.json()
         nextFileName = os.path.join(PATH_JSON_FILES, 'vacancies\\', '{}.json'.format(item['id']))
         f = open(nextFileName, mode='w', encoding='utf8')
-        f.write(json.dumps(item, ensure_ascii=False, indent=4))
+        f.write(json.dumps(json_vac, ensure_ascii=False, indent=4))
         f.close()
-        print(f'[INFO] GET VAC: {item["id"]}')
-        print(item)
+        print(f'[INFO] GET VAC from {current_page}: {item["id"]}')
         time.sleep(0.25)
-
 
 def remove_files(path):
     for file in os.listdir(path):
@@ -50,7 +50,7 @@ def remove_files(path):
 
 
 async def update_parse():
-    dirs = ['pagination', r'vacancies\python']
+    dirs = ['pagination', r'vacancies']
 
     #Очистка старых данных
     for d in dirs:
@@ -58,7 +58,7 @@ async def update_parse():
         remove_files(dir)
 
     async with aiohttp.ClientSession() as session:
-        tasks = (get_vacancies(page, session) for page in range(0, 2))
+        tasks = (get_vacancies(page, session) for page in range(0, 5))
         await asyncio.gather(*tasks)
 
     print('[INFO] URL вакансий собраны')
@@ -129,10 +129,10 @@ def update_db():
 
 
 def start():
-    update_parse()
+    asyncio.run(update_parse())
+    print("[INFO] Время работы update_parse() {:.2f} sec".format(time.time() - START_TIME))
     update_db()
-    print('PARSING DONE')
-
+    print('[INFO] PARSING DONE')
 
 asyncio.run(update_parse())
-
+print("[INFO] Время работы update_parse() {:.2f} sec".format(time.time() - START_TIME))
