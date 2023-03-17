@@ -5,20 +5,43 @@ import pandas as pd
 from sqlalchemy import engine as sql
 from IPython import display
 import os
+import aiohttp, asyncio
+import time
 
+PATH_JSON_FILES = os.path.join(os.path.dirname(__file__), '..\\..\\..\\docs\\')
 
-def getPage(page=0):
+start_time = time.time()
+
+async def get_page(current_page: int, session: aiohttp.ClientSession):
     params = {
         'text': 'NAME:Python',
-        'area': 54,
-        'page': page,
-        'per_page': 100
+        # 'area': 54,
+        'schedule': 'remote',
+        'page': current_page
     }
+    resp = await session.get('https://api.hh.ru/vacancies', data=params)
+    if resp.status == 200:
+        print(f'[INFO] GET PAGE: {current_page+1}')
+        num_files = len(os.listdir(os.path.join(PATH_JSON_FILES, 'pagination\\')))
+        nextFileName = os.path.join(PATH_JSON_FILES, 'pagination\\', '{}.json'.format(num_files))
+        json_page = await resp.json()
+        f = open(nextFileName, mode='w', encoding='utf8')
+        f.write(json.dumps(json_page, ensure_ascii=False, indent=4))
+        f.close()
+        return json_page
+    else:
+        return {}
 
-    req = requests.get('https://api.hh.ru/vacancies', params)
-    data = req.content.decode()
-    req.close()
-    return data
+async def get_vacancies(page: int, session: aiohttp.ClientSession):
+    page_json = await get_page(page, session)
+    for item in page_json['items']:
+        nextFileName = os.path.join(PATH_JSON_FILES, 'vacancies\\', '{}.json'.format(item['id']))
+        f = open(nextFileName, mode='w', encoding='utf8')
+        f.write(json.dumps(item, ensure_ascii=False, indent=4))
+        f.close()
+        print(f'[INFO] GET VAC: {item["id"]}')
+        print(item)
+        time.sleep(0.25)
 
 
 def remove_files(path):
@@ -26,43 +49,20 @@ def remove_files(path):
         os.remove(os.path.join(path, file))
 
 
-def update_parse():
-    dirs = ['pagination', 'vacancies\\python']
+async def update_parse():
+    dirs = ['pagination', r'vacancies\python']
 
-    # очистка старых данных
+    #Очистка старых данных
     for d in dirs:
-        dir = os.path.join(os.getcwd(), 'docs\\', d)
+        dir = os.path.join(PATH_JSON_FILES, d)
         remove_files(dir)
 
-    for page in range(0, 20):
-        jsObj = json.loads(getPage(page))
+    async with aiohttp.ClientSession() as session:
+        tasks = (get_vacancies(page, session) for page in range(0, 2))
+        await asyncio.gather(*tasks)
 
-        nextFileName = os.path.join('.\\docs\\pagination\\', '{}.json'.format(len(os.listdir('.\\docs\\pagination\\'))))
+    print('[INFO] URL вакансий собраны')
 
-        f = open(nextFileName, mode='w', encoding='utf8')
-        f.write(json.dumps(jsObj, ensure_ascii=False, indent=4))
-        f.close()
-
-        for item in jsObj['items']:
-            req = requests.get(item['url'])
-            data = req.content.decode()
-            req.close()
-
-            # Создаем файл в формате json с идентификатором вакансии в качестве названия
-            # Записываем в него ответ запроса и закрываем файл
-            fileName = os.getcwd() + '\docs\\vacancies\\python\{}.json'.format(item['id'])
-            f = open(fileName, mode='w', encoding='utf8')
-            f.write(json.dumps(json.loads(data), indent=4))
-            f.close()
-            time.sleep(0.25)
-
-        if (jsObj['pages'] - page) <= 1:
-            break
-
-        time.sleep(0.25)
-        print(f"Получена страница {page}")
-
-    print('Страницы поиска собраны')
 
 
 def clear_db(db_connect):
@@ -75,7 +75,6 @@ def update_db():
     names = []  # Список наименований вакансий
     urls = []
 
-
     # Создаем списки для столбцов таблицы skills
     skills_vac = []  # Список идентификаторов вакансий
     skills_name = []  # Список названий навыков
@@ -83,27 +82,27 @@ def update_db():
     # В выводе будем отображать прогресс
     # Для этого узнаем общее количество файлов, которые надо обработать
     # Счетчик обработанных файлов установим в ноль
-    cnt_docs = len(os.listdir(os.getcwd() + '\\docs\\vacancies\\python'))
+    cnt_docs = len(os.listdir(PATH_JSON_FILES + '\\vacancies'))
     i = 0
 
-    for file in os.listdir(os.getcwd() + '\\docs\\vacancies\\python'):
+    for file in os.listdir(PATH_JSON_FILES + '\\vacancies'):
 
         # Открываем, читаем и закрываем файл
-        f = open(os.getcwd() + '\\docs\\vacancies\\python\\{}'.format(file), encoding='utf8')
+        f = open(PATH_JSON_FILES + '\\vacancies\\{}'.format(file), encoding='utf8')
         jsonText = f.read()
         f.close()
 
         # Текст файла переводим в справочник
-        jsonObj = json.loads(jsonText)
+        json_vac = json.loads(jsonText)
 
         # Заполняем списки для таблиц
-        IDs.append(int(jsonObj['id']))
-        names.append(jsonObj['name'])
-        urls.append(jsonObj['alternate_url'])
+        IDs.append(int(json_vac['id']))
+        names.append(json_vac['name'])
+        urls.append(json_vac['alternate_url'])
 
         # Т.к. навыки хранятся в виде массива, то проходимся по нему циклом
-        for skl in jsonObj['key_skills']:
-            skills_vac.append(int(jsonObj['id']))
+        for skl in json_vac['key_skills']:
+            skills_vac.append(int(json_vac['id']))
             skills_name.append(skl['name'])
 
         # Увеличиваем счетчик обработанных файлов на 1, очищаем вывод ячейки и выводим прогресс
@@ -135,5 +134,5 @@ def start():
     print('PARSING DONE')
 
 
-
+asyncio.run(update_parse())
 
