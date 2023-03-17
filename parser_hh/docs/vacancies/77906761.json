@@ -1,0 +1,96 @@
+{
+    "id": "77906761",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Аналитик e-commerce (WB) / Разработчик на Python (удаленно)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 80000,
+        "to": 120000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Привет, наш будущий <strong>аналитик</strong>!</p> <p>Наша команда занимается продажей товаров на WB. Мы крупный поставщик на WB, который представлен в 5 нишах, в каждой из которых являемся лидером. На данный момент работаем в сфере аксессуаров, товаров для дома, электроники и игрушек.</p> <p>В связи с ростом продаж, увеличением закупок и отгрузок ищем <strong>Аналитика для WB</strong>, который будет отвечать за все процессы планирования и расчетов внутри нашего бизнеса. Позиция с большой долей ответственности и автономности. Ищем профессионала горящего своим делом, который не будет уходить спать до тех пор, пока все задачи не будут побеждены!</p> <p> </p> <p><strong>Чем нужно будет заниматься:</strong></p> <ul> <li>Ежедневная аналитика заказов, выкупов, маржинальности на WB;</li> <li>Рассчитывать план и формировать заявки на отгрузки на склады маркетплейса;</li> <li>Контролировать остатки на складах WB, не допуская out of stock и перетоварки;</li> <li>Планирование закупок (взаимодействие с отделом закупок)</li> <li>Планирование упаковки на складе;</li> <li>Работа с ценообразованием и оборачиваемостью;</li> <li>Сбор аналитики по конкурентам;</li> </ul> <p> </p> <p><strong>Наш идеальный кандидат:</strong></p> <ul> <li>Имеет работы аналитиком в e-commerce (идеально - WB) не менее 1 года.</li> <li> <p><strong>Имеет знания Python и SQL (</strong>задач не сложные, категории: написать парсер карточек на ВБ или вытянуть из API WB акционных цены)</p> </li> <li> <p>Уверенный опыт работы в Google Sheets и Excel, умение строить отчеты, делать из большего кол-ва отчетов один удобный, а главное нужный;</p> </li> <li> <p>Знает базовую математическую статистику и может строить прогнозы, в ситуации недостатка данных.</p> </li> </ul> <p> </p> <p><strong>Будет преимуществом:</strong></p> <ul> <li> <p>Имеет опыт визуализации (Tableau/Amplitude/PowerBI)</p> </li> </ul> <p> </p> <p><strong>Что предлагаем:</strong></p> <ul> <li>Стабильная заработная плата с хорошим окладом и с понятной системой KPI;</li> <li>Своевременные выплаты заработной платы, 2 раз в месяц;</li> <li>Сплоченная и креативная команда, нацеленная на результат;</li> <li>Возможность профессионального роста, обучения и развития вместе с компанией;</li> </ul> <p> </p> <p><strong>Ждем тебя в нашей команде!</strong></p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Аналитическое мышление"
+        },
+        {
+            "name": "Бизнес-анализ"
+        },
+        {
+            "name": "Анализ данных"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "150",
+            "name": "Бизнес-аналитик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": true,
+    "employer": {
+        "id": "4537827",
+        "name": "Якубов Даниил Самирович",
+        "url": "https://api.hh.ru/employers/4537827?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4537827",
+        "logo_urls": null,
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4537827&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T15:58:51+0300",
+    "created_at": "2023-03-16T15:58:51+0300",
+    "initial_created_at": "2023-03-10T15:58:51+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77906761",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77906761",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true,
+    "languages": []
+}

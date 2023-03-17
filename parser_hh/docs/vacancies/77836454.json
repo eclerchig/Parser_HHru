@@ -1,0 +1,104 @@
+{
+    "id": "77836454",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Python-разработчик",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "71",
+        "name": "Пенза",
+        "url": "https://api.hh.ru/areas/71?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Привет! Мы <strong>RelSys</strong>. Наша компания более 15 лет занимается разработкой программного обеспечения на заказ, а также создает собственные продукты в сфере финтеха, медицины, екоммерса и т.д. У нас работает более 100 сотрудников. Мы не гонимся за количеством, а строим зрелую команду из заинтересованных людей.</p> <p>Сейчас мы ищем <strong>Python</strong>-разработчика уровня <strong>senior</strong> для реализации нового функционала одного из наших приложений.</p> <p><strong>Мы ждём, что у вас есть:</strong></p> <ul> <li>Знание Python 3.8+;</li> <li>Уверенное знание и опыт AsyncIO;</li> <li>Опыт работы с WebSockets;</li> <li>PostgreSQL;</li> <li>Redis;</li> <li>RabbitMQ;</li> <li>Опыт разработки highload backend на Python;</li> <li>Опыт оптимизации приложений с целью снижения нагрузки на базу данных и увеличения производительности.</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт работы с фреймворком Tornado;</li> <li>Знание PHP и/или Javascript (Node.JS) и/или GO.</li> </ul> <p><strong>Мы предлагаем:</strong></p> <ul> <li>Работу в аккредитованной IT-компании;</li> <li>Современные офисы в Пензе или Саратове и возможность работать удаленно;</li> <li>Достойную твоего профессионального уровня зарплату;</li> <li>Команду увлеченных людей, которые хорошо знают свое дело, не боятся экспериментировать с нестандартными решениями и болеют за продукт;</li> <li>Возможность осваивать новые технологии при поддержке опытных коллег;</li> <li>Плоскую организационную структуру с минимумом бюрократии, гибкостью в процессах и возможностью напрямую влиять на конечный результат.</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "RabbitMQ"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "WebSockets"
+        },
+        {
+            "name": "Redis"
+        },
+        {
+            "name": "asyncio"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2828513",
+        "name": "Надёжные системы",
+        "url": "https://api.hh.ru/employers/2828513?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2828513",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/1067207.png",
+            "90": "https://hhcdn.ru/employer-logo/5889457.png",
+            "240": "https://hhcdn.ru/employer-logo/5889458.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2828513&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-09T14:23:17+0300",
+    "created_at": "2023-03-09T14:23:17+0300",
+    "initial_created_at": "2023-03-09T14:23:17+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77836454",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77836454",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

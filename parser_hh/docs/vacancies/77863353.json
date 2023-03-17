@@ -1,0 +1,98 @@
+{
+    "id": "77863353",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Team Lead backend/Python (remote)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Наш проект начался шесть лет назад, а сейчас мы сильная компания, создавшая крутой продукт, который успешно развивается и продается. Команда разработчиков выросла в три раза за последние 2 года и сейчас нам нужен <strong>матерый Тимлид для самого большого отдела разработки.</strong></p> <p><strong>Коротко о SmartMerch:</strong><br />- Аккредитованная IT компания.<br />- Мы создали инновационный продукт распознавания на базе ИИ, уже несколько лет им пользуются крупные FMCG компании в РФ, СНГ, ЮВА и Европе.<br />- Наша сплоченная многонациональная команда успешно работает удаленно в нескольких тайм<br />зонах.<br />- Амбициозность, уникальность каждого и взаимоуважение - основные наши ценности.</p> <strong>Зона ответственности:</strong><br />- высоко-нагруженный портал (работоспособность).<br />- новый функционал (разработка и доставка).<br />- архитектура (развитие).<br />- команда (управление).<br /><br /><em><strong>Stack: </strong>Python (синхронный и асинхронный) / Pyramid / AIOHttp / SQLAlchemy / Redis / Docker / Pytest / Alembic / postgres / Vue.js<br />Плюсом будет знание FastAPI (планируется переход на него)</em><br /><br /><strong>Задачи:<br />-</strong> анализ новых требований/оценка сроков для их реализации<br />- реализация функционала<br />- оптимизация и автоматизация<br />- поддержка стабильности работы портала<br />- код-ревью и МР<br />- создание документации<br />​​​​<br /><strong>Требования:<br />- </strong>опыт работы с высоконагруженными системами или их разработка (от 3 лет) <p>- бэкграунд в разработке на указанном стеке технологий<br />- амбиция развиваться/реализовываться самому и помогать в этом компании<br />- незашоренность/готовность к изменениям/результативность</p> <strong>Что мы предлагаем:</strong><br />нам интересны люди, нацеленные на результат, <strong>о размере дохода договоримся на собеседовании.</strong><br />- Вызов: наши объемы и нагрузка, решение этих задач добавит экспертизы и чувства удовлетворения.<br />- Официальное оформление и белая зарплата.<br />- Возможность работать удаленно.<br />- Лидерская позиция в международной компании.<br />- Онбординг и обучение внутри компании (английскому в том числе).<br />- Дружелюбная атмосфера, основанная на взаимопонимании и уважении экспертности. <p><strong>Мы хотим стать абсолютным лидером глобального рынка с передовым продуктом и будет замечательно, если наши стремления совпадут.</strong></p> <p><strong>Так что, если вас такие планы тоже зажигают, откликайтесь и становитесь во главе нашей сплоченной и эффективной команды!</strong></p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4194553",
+        "name": "Инфотек",
+        "url": "https://api.hh.ru/employers/4194553?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4194553",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/916248.png",
+            "240": "https://hhcdn.ru/employer-logo/4105672.png",
+            "90": "https://hhcdn.ru/employer-logo/4105671.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4194553&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T08:55:26+0300",
+    "created_at": "2023-03-16T08:55:26+0300",
+    "initial_created_at": "2023-03-10T08:55:26+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77863353",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77863353",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": [
+        {
+            "id": "eng",
+            "name": "Английский",
+            "level": {
+                "id": "b1",
+                "name": "B1 — Средний"
+            }
+        }
+    ]
+}

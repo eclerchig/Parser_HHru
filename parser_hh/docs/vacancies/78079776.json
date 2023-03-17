@@ -1,0 +1,110 @@
+{
+    "id": "78079776",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "TechLead (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "2",
+        "name": "Санкт-Петербург",
+        "url": "https://api.hh.ru/areas/2?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": {
+        "id": "7172-7172-it",
+        "name": "Лента, федеральная розничная сеть, IT "
+    },
+    "contacts": null,
+    "description": "<p>Мы в поиске <strong>Techlead</strong> в команду разработки системы управления ассортиментом.</p> <p>Продукт представляет из себя ряд микросервисов, веб-фронтенд, витрины данных, devops-окружение. На текущий момент над его развитием работает продуктовая команда из 20+ специалистов.<br />Основной стек: Python 3, FastAPI, PostgreSQL, ClickHouse, Redis, на фронте Vue 2+3.</p> <p><br />Мы ищем сильного техлида, который будет отвечать за проектирование и реализацию ключевых компонентов системы, оптимизацию текущей и проектирование будущей архитектуры, доработку функциональности и масштабирование.</p> <p><strong>Какие задачи предстоит решать:</strong><br />• Отвечать за ключевые решения по архитектуре/стеку/коду (в первую очередь, по бэкэнду), формирование соглашений и правил разработки, производительность и отказоустойчивость<br />• Отвечать за time2market разработки, точность оценок, улучшение процессов проектирования и декомпозиции технических задач, снижение объёма незапланированного техдолга и рефакторинга, повышение code reuse<br />• Осуществлять технический арбитраж, проактивную помощь команде, code review важных участков, внедрять best practices<br />• Принимать ключевые соглашения между back-, front-разработчиками, дата-инженерами, QA, системными аналитиками и другими техническими специалистами<br />• Выявлять и решать текущие и потенциальные проблемы в коде, в архитектуре, в процессах разработки, производительности, SLA, взаимодействии со сторонними системами и других<br />• При необходимости писать код (и показывать «как надо»), рисовать схемы, декомпозировать и описывать задачи, проектировать контракты и БД, готовить проекты решений, повестки технических встреч и другие артефакты, упрощающие жизнь команде</p> <p><strong>Мы ждем:</strong><br />• Опыт техлидства fullstack-приложений и/или backend-сервисов в продуктовых или проектных командах с числом разработчиков &gt;10 человек<br />• Опыт в проектировании архитектуры backend-сервисов, включая контракты, БД, потоки данных, интеграции<br />• Senior+ уровень компетенций как Python-разработчика, хорошее знание БД, базовое знание принципов фронтенд-разработки</p> <p><strong>Мы ценим:</strong><br />• Умеренный перфекционизм<br />• Супер-внимательность к требованиям и качеству кода<br />• Софт-скиллы: умение разрешать споры, лаконично убеждать команду и сокращать время на обсуждения в пользу работы<br />• Самостоятельность, проактивность и ответственность</p> <p><strong>Мы предлагаем:</strong><br />• Интересные проекты с прямым влиянием на бизнес &gt;1 млрд. руб. в год<br />• Работу в полноценной продуктовой команде<br />• Возможность работы в удаленном формате откуда угодно, гибкий график работы<br />• Минимум бюрократии и лишних формальностей<br />• Белая зарплата: оклад + ежегодная премия</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "ClickHouse"
+        },
+        {
+            "name": "Redis"
+        },
+        {
+            "name": "Fast Api"
+        },
+        {
+            "name": "Vue"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "104",
+            "name": "Руководитель группы разработки"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "7172",
+        "name": "Лента, федеральная розничная сеть",
+        "url": "https://api.hh.ru/employers/7172?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/7172",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/3857704.png",
+            "90": "https://hhcdn.ru/employer-logo/3857703.png",
+            "original": "https://hhcdn.ru/employer-logo-original/854207.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=7172&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T11:51:10+0300",
+    "created_at": "2023-03-15T11:51:10+0300",
+    "initial_created_at": "2023-03-15T11:51:10+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78079776",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78079776",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

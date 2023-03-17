@@ -1,0 +1,111 @@
+{
+    "id": "77142723",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Python Developer (Трайб Core IT)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "улица Клары Цеткин",
+        "building": null,
+        "lat": 55.824921,
+        "lng": 37.516386,
+        "description": null,
+        "raw": "Москва, улица Клары Цеткин",
+        "metro": {
+            "station_name": "Войковская",
+            "line_name": "Замоскворецкая",
+            "station_id": "2.30",
+            "line_id": "2",
+            "lat": 55.818923,
+            "lng": 37.497791
+        },
+        "metro_stations": [
+            {
+                "station_name": "Войковская",
+                "line_name": "Замоскворецкая",
+                "station_id": "2.30",
+                "line_id": "2",
+                "lat": 55.818923,
+                "lng": 37.497791
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Кто мы:</strong></p> <p>ОТП Банк входит в ТОП-50 крупнейших банков России, а на рынке потребительского кредитования и кредитных карт - мы одни из лидеров рынка.<br />Банк активно меняется, выстраивая работу, в соответствии принципами agile.<br />Сейчас agile-периметр ОТП Банка - это 9 Трайбов, 65+ команд и амбициозные цели по дальнейшему развитию. Agile в ОТП - это реальные проекты, современный стек технологий, уникальные банковские разработки и опыт крутых специалистов.</p> <p><strong>Трайб Core IT</strong></p> <p>Наша команда DWH Core занимается развитием инструментов сбора, хранения и анализа данных. Мы проектируем архитектуру хранилища данных и отчетных систем, выбираем и внедряем новые движки для удовлетворения потребностей бизнеса и продуктовых команд.</p> <p>Мы находимся в поисках Python разработчика, который поможет нам с развитием фреймворков по загрузке данных в Data Platform.</p> <p><strong>Наш стек:</strong></p> <ul> <li>Хранение данных: Arenadata DB, PostgreSQL, ClickHouse, Oracle, HDFS/S3</li> <li>DevOps: Bitbucket, TeamCity, Liquibase, Kubernetes, Docker, Fortify, SonarQube, Flake8, Pytest</li> <li>Мониторинг: OpenSearch, Zabbix, Grafana, Prometheus</li> <li>ETL: Apache Airflow + Apache Spark</li> <li>Streaming: Informatica PowerExchange, Debezium, Kafka</li> <li>BI: Apache Superset</li> </ul> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li>Развитие и поддержка фреймворков для загрузки данных в различные слои DataPlatform</li> <li>Разработка плагинов/операторов/провайдеров для Apache Airflow</li> <li>Расширение базового функционала Apache Superset</li> <li>Разработка автотестов на Pytest</li> <li>Автоматизация код-ревью</li> <li>Обучение разработчиков работе с нашими фреймворками</li> <li>Участие в других задачах развития Data-платформы (внедрение ClickHouse и не только)</li> </ul> <p><strong>Что мы ждем:</strong></p> <ul> <li>Опыт разработки на Python от 2-х лет</li> <li>Уверенные знания SQL</li> <li>Опыт участия в проектах по созданию и развитию Хранилищ Данных (DWH) или Data-решений</li> <li>Понимание нюансов работы MPP- платформ и обработки больших данных</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт работы c ClickHouse, PostgreSQL, Greenplum, Oracle</li> <li>Опыт работы с Apache Airflow, Apache Superset и Apache Spark</li> <li>Опыт работы с Docker и docker-compose</li> </ul> <p><strong>От нас:</strong></p> <ul> <li>Красивый офис/удобное рабочее место (м. Войковская) или удаленный формат;</li> <li>Возможность изменять время начала и конца рабочего дня по согласованию с руководителем;</li> <li>Отсутствие строгого дресс-кода (мы лояльны к любому проявлению личного стиля);</li> <li>Welcome pack;</li> <li>ДМС (а также возможность его замены на фитнес);</li> <li>BestBenefits – сервис скидок и привилегий (техника и электроника, рестораны и доставка, обучение, отдых, спорт, красота и здоровье, товары, развлечения, услуги, детские товары и развлечения);</li> <li>Управленческое обучение, развитие навыков личной эффективности, профессиональное развитие;</li> <li>Участие в корпоративных и спортивных мероприятиях (он-лайн и офф-лайн);</li> <li>Корпоративная библиотека МИФ и Bookcrossing.</li> </ul>",
+    "branded_description": "\n<style>\n.tmpl_hh_wrapper p,\n.tmpl_hh_wrapper a,\n.tmpl_hh_wrapper img,\n.tmpl_hh_wrapper ol,\n.tmpl_hh_wrapper ul,\n.tmpl_hh_wrapper li {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 100%;\n    font: inherit;\n    vertical-align: baseline;\n}\n\n.hht-vacancydescription {\n    padding: 0px;\n}\n\n.tmpl_hh_wrapper .l-cell,\n.tmpl_hh_wrapper .l-paddings {\n    padding: 0px !important;\n}\n\n.tmpl_hh_wrapper .b-vacancy-desc-wrapper {\n    margin-top: 0px !important;    \n}\n\n.tmpl_hh_wrapper .b-vacancy-desc {\n    overflow: visible !important;\n    line-height: inherit;\n}\n\n.tmpl_hh_content ol li b,\n.tmpl_hh_content ol li strong,\n.tmpl_hh_content ol li p b,\n.tmpl_hh_content ol li p strong,\n.tmpl_hh_content ul li b,\n.tmpl_hh_content ul li strong,\n.tmpl_hh_content ul li p b,\n.tmpl_hh_content ul li p strong {\n    font-weight: normal;\n    font-size: inherit !important;\n    color: inherit !important;\n    margin: 0 !important;\n    text-transform: none;\n    line-height: inherit;\n}\n\n.tmpl_hh_content ol li p,\n.tmpl_hh_content ul li p {\n    font-weight: normal;\n    margin: 0;\n}\n\n.tmpl_hh_content p b,\n.tmpl_hh_content p strong {\n    display: inline;\n    margin: 0;\n}\n\n.tmpl_hh_wrapper {\n    width: 100%;\n    margin: 0 auto;\n    max-width: 690px;\n    position: relative;\n    word-break: normal;\n    overflow: hidden;\n    font-family: 'Arial';\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 22px;\n    color: #000;\n    z-index: 1;\n}\n\n.tmpl_hh_wrapper img {\n    width: 100%;\n    display: block;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.tmpl_hh_content {\n    padding: 68px 45px 70px;\n    position: relative;\n    z-index: 1;\n}\n\n.tmpl_hh_content p:first-child,\n.tmpl_hh_content>strong:first-child,\n.tmpl_hh_content div>strong:first-child {\n    margin-top: 0 !important;\n}\n\n.tmpl_hh_content p,\n.tmpl_hh_content b,\n.tmpl_hh_content strong {\n   margin: 29px 0 12px;\n}\n\n.tmpl_hh_content b, \n.tmpl_hh_content strong {\n    display: inline-block;\n    font-weight: 700;\n    font-size: 23px;\n    line-height: 23px;\n}\n\n.tmpl_hh_content ol,\n.tmpl_hh_content ul {\n    margin-left: 20px;\n    list-style: none !important;\n}\n\n.tmpl_hh_content ol {\n    counter-reset: list_counter;\n}\n\n.tmpl_hh_content li {\n    position: relative;\n    margin-bottom: 16px;\n}\n\n.tmpl_hh_content ul ul,\n.tmpl_hh_content ul ol,\n.tmpl_hh_content ol ol,\n.tmpl_hh_content ol ul {\n    margin-top: 16px;\n}\n\n.tmpl_hh_content ol>li {\n    counter-increment: list_counter;    \n}\n\n.tmpl_hh_content li:before {\n    position: absolute;\n    left: -20px;\n    top: 0;\n}\n\n.tmpl_hh_content ul>li:before {\n    content: \"\";\n    width: 5px;\n    height: 5px;\n    border-radius: 50%;    \n    top: 8px;\n    background: #000000;\n}\n\n.tmpl_hh_content ol>li:before {\n    content: counter(list_counter)'.';\n    left: auto;\n    right: 100%;\n    margin-right: 2px;\n}\n\n.tmpl_hh_flex {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    -ms-flex-wrap: wrap;\n    flex-wrap: wrap;\n}\n\n.tmpl_hh_header {\n    position: relative;\n    overflow: hidden;\n}\n\n.tmpl_hh_header:before {\n    content: \"\";\n    width: 65%;\n    height: 100%;\n    left: 0;\n    top: 0;\n    background: linear-gradient(90deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);\n    position: absolute;\n}\n\n.tmpl_hh_header__logo {\n    width: 179px;\n    position: absolute;\n    left: 45px;\n    top: 40px;\n    z-index: 1;\n}\n\n.tmpl_hh_header__text {\n    font-size: 18px;\n    line-height: 15px;\n    color: #FFFFFF;\n    position: absolute;\n    left: 45px;\n    top: 34%;\n    z-index: 1;\n}\n\n.tmpl_hh_header__text p {\n    margin-bottom: 21px;\n}\n\n.tmpl_hh_header__text b {\n    font-weight: 700;\n    font-size: 25px;\n    line-height: 22px;\n    display: block;\n    margin-bottom: 10px;\n}\n\n.tmpl_hh_header__icon {\n    position: absolute;\n    bottom: -1px;\n    left: 31px;\n    width: 37.5%;\n}\n\n.tmpl_hh_header:after {\n    content: \"\";\n    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);\n    width: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 45%;\n}    \n\n.tmpl_hh_footer__logo {\n    width: 225.8px;\n    margin: 0 auto 51px;\n}\n\np.tmpl_hh_footnote {\n    font-style: italic;\n    font-weight: 700;\n    font-size: 12px;\n    line-height: 25px;\n    text-transform: uppercase;\n    color: #F1F1F1;\n    position: absolute;\n    left: 50px;\n    bottom: 56px;\n}\n\n@media screen and (max-width: 1019px) {\n\n}\n\n@media screen and (max-width: 699px) {\n\n    .tmpl_hh_wrapper {\n        font-size: 14px;\n        line-height: 22px;\n    }\n\n    .tmpl_hh_content {\n        padding: 25px 16px 25px;\n    }\n\n    .tmpl_hh_content p,\n    .tmpl_hh_content b,\n    .tmpl_hh_content strong {\n       margin: 31px 0 13px;\n    }\n\n    .tmpl_hh_content b, \n    .tmpl_hh_content strong {\n        font-size: 16px;\n        line-height: 18px;\n    }\n\n    .tmpl_hh_header__logo {\n        width: 31%;\n        left: 16px;\n        top: 18px;\n    }\n\n    .tmpl_hh_header__text {\n        font-size: 12px;\n        line-height: 11px;\n        left: 16px;\n        top: 34%;\n    }\n\n    .tmpl_hh_header__text p {\n        margin-bottom: 6px;\n    }\n\n    .tmpl_hh_header__text b {\n        font-size: 14px;\n        line-height: 14px;\n        margin-bottom: 3px;\n    }\n\n    .tmpl_hh_header__icon {\n        bottom: -1px;\n        left: 13px;\n        width: 37.5%;\n    }\n\n    .tmpl_hh_footer__logo {\n        width: 225.8px;\n        margin: 0 auto 25px;\n    }\n\n    p.tmpl_hh_footnote {\n        position: relative;\n        left: 0;\n        bottom: 0;\n        text-align: center;\n    }\n}\n</style>\n\n<div class=\"tmpl_hh_wrapper\">\n    <div class=\"tmpl_hh_header\">\n        <div class=\"tmpl_hh_header__logo\"><img src=\"https://hhcdn.ru/ichameleon/250126.png\" alt=\"\"></div>\n        <div class=\"tmpl_hh_header__text\">\n            <p><b>Банк реальных проектов</b>Работай не в стол</p>\n            <p>Решайся!</p>\n        </div>\n        <div class=\"tmpl_hh_header__icon\"><img src=\"https://hhcdn.ru/ichameleon/250124.svg\" alt=\"\"></div>\n        <div class=\"tmpl_hh_header__photo\"><img src=\"https://hhcdn.ru/ichameleon/250119.jpg\" alt=\"\"></div>\n    </div>\n    <div class=\"tmpl_hh_about\">\n        \n    </div>\n    <div class=\"tmpl_hh_content\">\n        <p><strong>Кто мы:</strong></p> <p>ОТП Банк входит в ТОП-50 крупнейших банков России, а на рынке потребительского кредитования и кредитных карт - мы одни из лидеров рынка.<br>Банк активно меняется, выстраивая работу, в соответствии принципами agile.<br>Сейчас agile-периметр ОТП Банка - это 9 Трайбов, 65+ команд и амбициозные цели по дальнейшему развитию. Agile в ОТП - это реальные проекты, современный стек технологий, уникальные банковские разработки и опыт крутых специалистов.</p> <p><strong>Трайб Core IT</strong></p> <p>Наша команда DWH Core занимается развитием инструментов сбора, хранения и анализа данных. Мы проектируем архитектуру хранилища данных и отчетных систем, выбираем и внедряем новые движки для удовлетворения потребностей бизнеса и продуктовых команд.</p> <p>Мы находимся в поисках Python разработчика, который поможет нам с развитием фреймворков по загрузке данных в Data Platform.</p> <p><strong>Наш стек:</strong></p> <ul> <li>Хранение данных: Arenadata DB, PostgreSQL, ClickHouse, Oracle, HDFS/S3</li> <li>DevOps: Bitbucket, TeamCity, Liquibase, Kubernetes, Docker, Fortify, SonarQube, Flake8, Pytest</li> <li>Мониторинг: OpenSearch, Zabbix, Grafana, Prometheus</li> <li>ETL: Apache Airflow + Apache Spark</li> <li>Streaming: Informatica PowerExchange, Debezium, Kafka</li> <li>BI: Apache Superset</li> </ul> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li>Развитие и поддержка фреймворков для загрузки данных в различные слои DataPlatform</li> <li>Разработка плагинов/операторов/провайдеров для Apache Airflow</li> <li>Расширение базового функционала Apache Superset</li> <li>Разработка автотестов на Pytest</li> <li>Автоматизация код-ревью</li> <li>Обучение разработчиков работе с нашими фреймворками</li> <li>Участие в других задачах развития Data-платформы (внедрение ClickHouse и не только)</li> </ul> <p><strong>Что мы ждем:</strong></p> <ul> <li>Опыт разработки на Python от 2-х лет</li> <li>Уверенные знания SQL</li> <li>Опыт участия в проектах по созданию и развитию Хранилищ Данных (DWH) или Data-решений</li> <li>Понимание нюансов работы MPP- платформ и обработки больших данных</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт работы c ClickHouse, PostgreSQL, Greenplum, Oracle</li> <li>Опыт работы с Apache Airflow, Apache Superset и Apache Spark</li> <li>Опыт работы с Docker и docker-compose</li> </ul> <p><strong>От нас:</strong></p> <ul> <li>Красивый офис/удобное рабочее место (м. Войковская) или удаленный формат;</li> <li>Возможность изменять время начала и конца рабочего дня по согласованию с руководителем;</li> <li>Отсутствие строгого дресс-кода (мы лояльны к любому проявлению личного стиля);</li> <li>Welcome pack;</li> <li>ДМС (а также возможность его замены на фитнес);</li> <li>BestBenefits – сервис скидок и привилегий (техника и электроника, рестораны и доставка, обучение, отдых, спорт, красота и здоровье, товары, развлечения, услуги, детские товары и развлечения);</li> <li>Управленческое обучение, развитие навыков личной эффективности, профессиональное развитие;</li> <li>Участие в корпоративных и спортивных мероприятиях (он-лайн и офф-лайн);</li> <li>Корпоративная библиотека МИФ и Bookcrossing.</li> </ul></div>\n    <div class=\"tmpl_hh_footer\">\n        <div class=\"tmpl_hh_footer__logo\"><img src=\"https://hhcdn.ru/ichameleon/250125.svg\" alt=\"\"></div>\n        <p class=\"tmpl_hh_footnote\">АО \"ОТП БАНК\"</p>\n    </div>\n</div> \n\n",
+    "vacancy_constructor_template": null,
+    "key_skills": [],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4394",
+        "name": "ОТП Банк, АО (OTP bank)",
+        "url": "https://api.hh.ru/employers/4394?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4394",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/3357505.png",
+            "90": "https://hhcdn.ru/employer-logo/3357504.png",
+            "original": "https://hhcdn.ru/employer-logo-original/729105.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4394&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T13:12:17+0300",
+    "created_at": "2023-03-15T13:12:17+0300",
+    "initial_created_at": "2023-02-17T16:38:17+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77142723",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77142723",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

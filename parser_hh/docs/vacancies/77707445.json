@@ -1,0 +1,115 @@
+{
+    "id": "77707445",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Senior Backend Developer (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": null,
+        "to": 350000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Мы - международная IT компания, разрабатывающая B2B сервисы для автоматизации маркетинговых процессов. Мы занимаем лидирующие позиции в сегмента e-commerce и retail как на российском рынке, так и за его пределами: у нас есть офисы в нескольких странах Европы и Латинской Америке. Среди наших клиентов такие компании как: MARS, Sephora, Ситилинк, Тануки, Papa Johns, Ecco, LG, Hoff, Эльдорадо, Lenovo, Auchan.</p> <p>У нас в портфеле есть два основных продукта:</p> <ul> <li><strong>Retail Rocket</strong> - платформа, которая помогает трансформировать новых покупателей в постоянных и работать над их удержанием.</li> <li><strong>Sailplay</strong> - платформа с набором инструментов для работы с пользовательской базой бизнеса.</li> </ul> <p>На данный момент мы в процессе расширения команды разработки продукта Sailplay и ищем <strong>Senior Python Developer,</strong> который возьмет на себя задачи по развитию сервисов.</p> <p><strong>Чуть больше о Sailplay</strong>:</p> <p>Sailplay - это высоконагруженный SaaS-сервис для автоматизации задач маркетинга и операционного управления. Платформа включает в себя следующие инструменты:</p> <ul> <li>маркетинговая CRM и платформа аналитики</li> <li>процессинг программ лояльности</li> <li>процессинг маркетинговых промо механик</li> <li>коммуникации через различные каналы</li> <li>инструменты кампейн менеджмента</li> </ul> <p><strong>Вам предстоит:</strong></p> <ul> <li>поддержка и развитие сервисов платформы автоматизации маркетинга и системы сбора и обработки данных, проработка новых архитектурных решений</li> <li>проектирование архитектуры микросервисов и ведение технических проектов их реализации</li> <li>активное участие в развитии существующих технических решений</li> </ul> <p><strong>Мы ожидаем:</strong></p> <ul> <li>уверенное владение Python 3</li> <li>опыт разработки асинхронных веб-приложений с fastapi</li> <li>опыт разработки высоконагруженных и отказоустойчивых систем</li> <li>опыт работы с PostgreSQL и Redis</li> <li>понимание принципов построения микросервисной архитектуры</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>знакомство с фреймворком Django</li> <li>знакомство с ClickHouse</li> <li>знакомство с Docker и Kubernetes/Helm</li> </ul> <p><strong>Что мы предлагаем</strong>:</p> <ul> <li>Уникальный опыт работы с широчайшим спектром новейших технологий БД</li> <li>Решение нетривиальных задач</li> <li>Работу в команде молодых и творческих людей, объединенных целью создания значимых и востребованных продуктов и построения на рынке сервисов e-commerce</li> <li>Внутреннее и внешнее обучение, корпоративная библиотека</li> <li>Отсрочка от призыва в соответствии с Постановлением Правительства РФ</li> <li>Удаленный формат работы</li> <li>Скидки на обучение у наших партнеров</li> <li>Официальное трудоустройство по ТК РФ, полностью &quot;белая&quot; Компания, ежегодную индексацию заработной платы</li> <li>Итоговую сумму обсуждаем с успешным кандидатом</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python 3"
+        },
+        {
+            "name": "FastAPI"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "Redis"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "ClickHouse"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Kubernetes"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2887273",
+        "name": "Retail Rocket",
+        "url": "https://api.hh.ru/employers/2887273?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2887273",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/912827.png",
+            "240": "https://hhcdn.ru/employer-logo/4091992.png",
+            "90": "https://hhcdn.ru/employer-logo/4091991.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2887273&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T11:11:15+0300",
+    "created_at": "2023-03-15T11:11:15+0300",
+    "initial_created_at": "2023-03-06T11:11:15+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77707445",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77707445",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

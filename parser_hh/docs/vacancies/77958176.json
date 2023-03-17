@@ -1,0 +1,142 @@
+{
+    "id": "77958176",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Backend разработчик (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "Большая Новодмитровская улица",
+        "building": "14с1",
+        "lat": 55.800559,
+        "lng": 37.585691,
+        "description": null,
+        "raw": "Москва, Большая Новодмитровская улица, 14с1",
+        "metro": {
+            "station_name": "Савёловская",
+            "line_name": "Серпуховско-Тимирязевская",
+            "station_id": "9.128",
+            "line_id": "9",
+            "lat": 55.794054,
+            "lng": 37.587163
+        },
+        "metro_stations": [
+            {
+                "station_name": "Савёловская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.128",
+                "line_id": "9",
+                "lat": 55.794054,
+                "lng": 37.587163
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Мы в компании «INSITECH Development» работаем над различными IT проектами, как собственными, так и для наших клиентов - лидеров российского рынка. Мы активно осваиваем новые направления и аудитории. «INSITECH Development» — команда единомышленников, которая создает инновационные продукты и ценит своих сотрудников. Мы растем и расширяемся.</strong></p> <p><strong>В связи с этим в нашу команду требуется Python разработчик.</strong></p> <p><strong>Мы ожидаем, что Вы имеете:</strong></p> <ul> <li>Профильный опыт back-end разработки на Python (Django/Flask/FastApi) от 4-х лет</li> <li> <p>Опыт коммерческой разработки Python от 4-х лет</p> </li> <li> <p>Владение хотя бы одним из фреймворков: Django (DRF), FastApi, AioHttp, Sanic, Starlette, Flask</p> </li> <li> <p>Опыт работы с очередями сообщений на реальных проектах</p> </li> <li> <p>Опыт работы с любой реляционной базой данных (плюсом будет опыт работы с PostgreSQL)</p> </li> <li> <p>Уверенные знания SQL, умение писать запросы без ORM</p> </li> <li> <p>Опыт работы с Git</p> </li> <li> <p>Желателен опыт работы с Kubernetes, Docker, Gitlab CI либо OpenShift</p> </li> </ul> <p><strong>Стек:</strong></p> <ul> <li> <p>Python 3.7</p> </li> <li> <p>Django, FastAPI</p> </li> <li> <p>Redis</p> </li> <li> <p>Celery, RabbitMQ</p> </li> <li> <p>PostgreSQL 11</p> </li> </ul> <p><strong>Наши условия:</strong></p> <ul> <li>Гибкий рабочий график + возможность удаленного формата работы (с возможностью посещения офиса по желанию)</li> <li>Достойную ЗП (размер обсудим на собеседовании)</li> <li>Топовое железо и доп. комплектующие по запросу</li> <li>Современный стек и направление</li> <li>ДМС после испыт. срока</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "Unit Testing"
+        },
+        {
+            "name": "CI/CD"
+        },
+        {
+            "name": "aiohttp"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "5289974",
+        "name": "INSITECH Development",
+        "url": "https://api.hh.ru/employers/5289974?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/5289974",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/3853516.png",
+            "90": "https://hhcdn.ru/employer-logo/3853515.png",
+            "original": "https://hhcdn.ru/employer-logo-original/853160.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5289974&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-13T10:47:38+0300",
+    "created_at": "2023-03-13T10:47:38+0300",
+    "initial_created_at": "2023-03-13T10:47:38+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77958176",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77958176",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

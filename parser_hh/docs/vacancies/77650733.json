@@ -1,0 +1,116 @@
+{
+    "id": "77650733",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Python разработчик",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1641",
+        "name": "Набережные Челны",
+        "url": "https://api.hh.ru/areas/1641?host=hh.ru"
+    },
+    "salary": {
+        "from": 100000,
+        "to": 200000,
+        "currency": "RUR",
+        "gross": true
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Набережные Челны",
+        "street": "Машиностроительная улица",
+        "building": "91А",
+        "lat": 55.738454,
+        "lng": 52.45006,
+        "description": null,
+        "raw": "Набережные Челны, Машиностроительная улица, 91А",
+        "metro": null,
+        "metro_stations": []
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Приглашаем в команду Python разработчика на фуллтайм. Удалёнка или офис в Набережных Челнах.</p> <p><strong>О нас:</strong><br />Мы предлагаем SaaS решение для автоматизации логистики на предприятиях и на сегодня Атракс один из лидеров рынка. Среди заказчиков как крупные федеральные компании, так и небольшие производства.<br />(Мы не занимаемся разработкой сторонних проектов на заказ.)</p> <p>Для обеспечения поддержки клиентов есть офис в it-парке в Набережных Челнах (Татарстан), разработчиков обычно там нет, а вот клиентский отдел и продажники сидят именно там.</p> <p>Команда разработки у нас небольшая. Все работают удаленно, но все на виду.<br />Так что если вы ищете уютный междусобойчик, без бюрократии, вам сюда.</p> <p>Legacy есть, но мы с ним боремся.</p> <p>Наши <strong>ожидания от разработчика:</strong></p> <ul> <li><strong>мидл+</strong>. Отвлекать ребят на менторство для юниоров возможности нет.</li> <li>знание английского, хотя бы на уровне свободного чтения тех литературы</li> <li>рабочее отношения к документации, сначала документация - только потом гугл и стэковерфлоу</li> <li>использование git должно быть естественным</li> <li>опыт Python/Django от трех лет</li> <li>хорошее понимание реляционных субд (у нас PostrgeSQL). Индексы, транзакции, SQL в обход ORM в порядке вещей. Если Pl/pgSQL, совсем хорошо.</li> <li>желание и понимание необходимости писать тесты</li> <li>умение работать с Docker. Продвинутых навыков Devops-а не ожидаем, но будем очень рады</li> <li>знание javascript приветствуется, фреймворки тоже хорошо (у нас есть vue). Можно больше ориентироваться на бэкенд, но избежать фронтенда полностью не получится.</li> </ul> <p>Очень нужны светлые головы и надежные руки.<br />Зарплата от 100 тыс. руб. по результатам собеседования.<br />График можно согласовать в зависимости от вашего часового пояса и привычек, главное, чтобы он был стабильным и было 2-3 часа пересечения с московским.</p> <p>Меня зовут Катерина, я руковожу разработкой, ставлю задачи. Живу в Казани.<br />Если вам интересно наше предложение, жду резюме и немного общей инфы о себе.</p> <p>P.S. Вакансий для джунов у нас нет.</p> <p>P.P.S. Зарплата белая.</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Английский язык"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "3188177",
+        "name": "АТРАКС ТРЕЙД",
+        "url": "https://api.hh.ru/employers/3188177?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/3188177",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/2397034.png",
+            "90": "https://hhcdn.ru/employer-logo/2397033.png",
+            "original": "https://hhcdn.ru/employer-logo-original/488820.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3188177&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T14:29:44+0300",
+    "created_at": "2023-03-15T14:29:44+0300",
+    "initial_created_at": "2023-03-03T14:29:44+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77650733",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77650733",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

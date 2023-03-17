@@ -1,0 +1,150 @@
+{
+    "id": "77912497",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Python-разработчик (middle+ / senior)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 200000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "Рубцовская набережная",
+        "building": "3с1",
+        "lat": 55.776613,
+        "lng": 37.699975,
+        "description": null,
+        "raw": "Москва, Рубцовская набережная, 3с1",
+        "metro": {
+            "station_name": "Бауманская",
+            "line_name": "Арбатско-Покровская",
+            "station_id": "3.17",
+            "line_id": "3",
+            "lat": 55.772405,
+            "lng": 37.67904
+        },
+        "metro_stations": [
+            {
+                "station_name": "Бауманская",
+                "line_name": "Арбатско-Покровская",
+                "station_id": "3.17",
+                "line_id": "3",
+                "lat": 55.772405,
+                "lng": 37.67904
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Мы -<strong> KTS</strong>, разрабатываем и внедряем собственные B2B-сервисы, автоматизируем бизнес-процессы больших компаний и стартапов, пишем высоконагруженные web-сервисы с игровыми механиками под рекламные кампании, а еще развиваем собственную школу разработки.</p> <p>Ищем <strong>middle+ / senior </strong>python-разработчика в команду спецпроектов!</p> <p>Что значит работать в команде “спецов”?</p> <ul> <li>высокие нагрузки (мы делаем приложения из экосистемы сберкота с миллионами пользователей);</li> <li>ответственные проекты (мы часто запускаем рекламные акции с ценными призами);</li> <li>тесные интеграции с площадками (нужно знать все нюансы ВК);</li> <li>высокие темпы разработки, время запуска одного проекта обычно от 1 до 3 месяцев активной разработки, поэтому, если ты любишь драйв, залетай к нам.</li> </ul> <p><strong>Что по технологиям? Python, asyncio, aiohttp, Django, fastAPI, Postgres, Rabbit, PostgreSQL. Вся инфраструктура в Kubernetes.</strong></p> <p>А еще у нас есть несколько своих вспомогательных сервисов, которые мы развиваем:</p> <ul> <li>админка для менеджеров с реалтайм изменением данных во всех наших приложениях SpecialHub;</li> <li>сервис сбора статистики KTS Click;</li> <li>сервис выдачи промокодов без рейс-кондишнов Eldorado.</li> </ul> <p><strong>Какие задачи предстоит решать:</strong></p> <p> </p> <ul> <li>разрабатывать клиентские приложения: игры и классические приложения;</li> <li>дорабатывать внутренние сервисы (SpecialHub, KTS.Click и Eldorado), проектировать и создавать новые;</li> <li>участвовать в запусках (а они у нас происходят постоянно).</li> </ul> <p><strong>Какие знания необходимы:</strong></p> <ul> <li>уверенное знание Python, Django, asyncio, aiohttp, SQL, Docker, PostgreSQL;</li> <li>будет плюсом знание Kubernetes (или научим), NestJS, MongoDB, FastAPI.</li> <li> <p>опыт построения архитектур сложных систем;</p> </li> <li> <p>умение декомпозировать и оценивать задачи;</p> </li> </ul> <p><strong>Как у нас можно развиваться</strong></p> <p>1. Общаться с ментором.</p> <p>Мы развиваем систему наставничества, у каждого сотрудника есть ментор. Вместе с ментором вы:</p> <ul> <li>проводите регулярные встречи 1 на 1 и раз в полгода проходите perfomance review;</li> <li>ставите цели, отслеживаете прогресс.</li> </ul> <p>2. Становиться ментором самому.</p> <p>3. Писать статьи.</p> <ul> <li>И выпускать их в блоге компании на Хабре под своим именем, развивать свой имидж в профессиональном сообществе.</li> </ul> <p><strong>Что мы предлагаем:</strong></p> <ul> <li>Официальное оформление, белая зарплата и соблюдение ТК во всех вопросах;</li> <li>В офисе или на удаленке <strong>-</strong> непринципиально. Главное - на <strong>fulltime;</strong></li> <li>А сам офис находится в Москве на Бауманской и он очень уютный: с летней верандой, силовой станцией для тренировок, кухней и обеденной зоной и классными видами на Москву;</li> <li>Гибкое начало рабочего дня, с 9.00 до 11.00 по мск;</li> <li>Комфортная атмосфера и молодая скилловая команда;</li> <li>ДМС со стоматологией после прохождения испытательного срока;</li> <li>Корпоративная скидка на изучение английского в Skyeng;</li> <li> <p>Система наставничества: ставим план развития и проводим раз в полгода perfomance review;</p> </li> <li> <p>Корпоративы и тимбилдинги на крыше офиса.</p> </li> </ul> <p><strong>Добро пожаловать к нам на крышу:)</strong></p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django"
+        },
+        {
+            "name": "asyncio"
+        },
+        {
+            "name": "aiohttp"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "Kubernetes"
+        },
+        {
+            "name": "NestJS"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "FastAPI"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "3202190",
+        "name": "KTS",
+        "url": "https://api.hh.ru/employers/3202190?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/3202190",
+        "logo_urls": {
+            "90": "https://hhcdn.ru/employer-logo/5626348.png",
+            "240": "https://hhcdn.ru/employer-logo/5626349.png",
+            "original": "https://hhcdn.ru/employer-logo-original/1001392.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3202190&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-10T17:40:58+0300",
+    "created_at": "2023-03-10T17:40:58+0300",
+    "initial_created_at": "2023-03-10T17:40:58+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77912497",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77912497",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

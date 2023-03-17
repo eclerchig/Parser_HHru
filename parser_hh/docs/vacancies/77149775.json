@@ -1,0 +1,123 @@
+{
+    "id": "77149775",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Программист Python",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": null,
+        "to": 270000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Наша команда занимается разработкой продукта Ankey ASAP, в сфере информационной безопасности корпоративных и киберфизических систем, которая предназначена для поведенческого анализа пользователей и сущностей с функциями выявления аномалий методами статистики и машинного обучения, а также для аналитической поддержки технического расследования (экспертизы) инцидентов безопасности.</p> На проекте используется Python + Django<br /><strong>Обязанности:</strong> <ul> <li> <p>Разработка модулей обработки (парсинга) данных от источников данных</p> </li> <li> <p>Разработка и сопровождение аналитических модулей на базе технологий анализа больших данных (в т.ч. применения ML)</p> </li> <li>Подробное документирование</li> </ul> <strong>Требования:</strong> <ul> <li> <p>опыт разработки прикладного ПО на Python3 в парадигме ООП не менее 3-х лет;</p> </li> <li> <p>опыт разработки асинхронных и многопоточных приложений;</p> </li> <li> <p>опыт обработки больших объемов данных на потоке;</p> </li> <li>опыт взаимодействия с базами данных, хранящими более 1 млрд. записей</li> </ul> <p><strong>Специализированные знания и навыки:</strong></p> <ul> <li> <p>отличное знание Python 3+;</p> </li> <li> <p>знание алгоритмов обработки и структур данных;</p> </li> <li> <p>понимание микросервисной архитектуры, распределенных систем;</p> </li> <li> <p>навыки работы с Docker;</p> </li> <li> <p>навыки работы с Git</p> </li> </ul> <p><strong><em>Будет плюсом</em></strong>:</p> <ul> <li> <p>Знание JavaScript\\TypeScript, WebSocket, gRPC</p> </li> <li> <p>Навыки работы с брокерами сообщений Kafka, RabbitMQ и Redis</p> </li> <li> <p>Навыки работы с ClickHouse\\MongoDB\\PostgresSQL</p> </li> <li>Навыки работы с Kubernetes <p> </p> </li> </ul> <strong>Условия:</strong> <ul> <li>Удаленная работа, при желании - можно офис.</li> <li><strong>Оформление в Аккредитованую </strong><strong>ИТ Компанию</strong>, работа на проекте и в команде банка , предоставляем право на льготную ипотеку, также и право подачи документов на <strong>отсрочку от мобилизации</strong> для профильных ИТ специалистов в соответствие с приказом!</li> <li>График работы 5/2 с гибким началом рабочего дня;</li> <li>Оформление на выбор - ТК РФ, ИП, Самозанятость;</li> <li>Амбициозные проекты, интересные с профессиональной точки зрения задачи;</li> <li>Широкий технологический стек;</li> <li>Возможность профессионального и карьерного роста - в динамично развивающейся компании</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Машинное обучение"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "RabbitMQ"
+        },
+        {
+            "name": "WebSocket"
+        },
+        {
+            "name": "Django"
+        },
+        {
+            "name": "Django Framework"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2000762",
+        "name": "АЙТИ.СПЕЙС",
+        "url": "https://api.hh.ru/employers/2000762?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2000762",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/915446.jpg",
+            "240": "https://hhcdn.ru/employer-logo/4102464.jpeg",
+            "90": "https://hhcdn.ru/employer-logo/4102463.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2000762&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T10:05:31+0300",
+    "created_at": "2023-03-16T10:05:31+0300",
+    "initial_created_at": "2023-02-17T19:40:46+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77149775",
+    "has_test": true,
+    "test": {
+        "required": true
+    },
+    "alternate_url": "https://hh.ru/vacancy/77149775",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true,
+    "languages": []
+}

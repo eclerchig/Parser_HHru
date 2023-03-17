@@ -1,0 +1,135 @@
+{
+    "id": "77457400",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Программист Python (middle)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "69",
+        "name": "Орел",
+        "url": "https://api.hh.ru/areas/69?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Орёл",
+        "street": "улица Гайдара",
+        "building": "54",
+        "lat": 53.002225,
+        "lng": 36.084993,
+        "description": null,
+        "raw": "Орёл, улица Гайдара, 54",
+        "metro": null,
+        "metro_stations": []
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Обязанности:</strong></p> <ul> <li>поддержка и доработка и оптимизация работы существующих проектов: Django/Flask/прикладные модули</li> <li>участие в полном цикле разработки - написание кода, отладка, написание тех. документации</li> <li>поддержка Legacy-кода в проектах</li> </ul> <p><strong>Требования:</strong></p> <ul> <li><strong>обязательно: коммерческий опыт разработки на Python от 2-х лет</strong></li> <li><strong>обязательно: коммерческий опыт разработки на Django (LTS) от 1.5 года</strong></li> <li><strong>обязательно: коммерческий опыт фронтенд-разработки от 1.5 года (HTML/CSS/JQuerry/JS/Bootstrap)</strong></li> <li>знание основных векторов атак на веб-приложение и уязвимостей OWASP Top 10 (SQLi, XSS, RCE, LFI/RFI и т.д.)</li> <li>опыт разработки с активным применением multithreading/multiprocessing/memcached</li> <li>опыт составления SQL-запросов</li> <li>опыт разработки и оптимизации кода для HighLoad-проектов будет плюсом</li> </ul> <p><strong>Условия:</strong></p> <ul> <li>работа в аккредитованной ИТ-компании</li> <li> <p>трудоустройство в полном соответствии с ТК РФ, соц. пакет, карьерный рост</p> </li> <li> <p>пятидневный рабочий день: пн-пт, с 10:00 до 19:00</p> </li> <li>удаленная работа</li> <li>уровень заработной платы обсуждается с кандидатом, успешно прошедшим собеседование</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "HTML/CSS"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "jQuery"
+        },
+        {
+            "name": "Memcached"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "Удаленная работа"
+        },
+        {
+            "name": "JS"
+        },
+        {
+            "name": "OWASP"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2253456",
+        "name": "Pentestit",
+        "url": "https://api.hh.ru/employers/2253456?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2253456",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/1727007.png",
+            "original": "https://hhcdn.ru/employer-logo-original/321160.png",
+            "90": "https://hhcdn.ru/employer-logo/1727006.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2253456&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T06:57:45+0300",
+    "created_at": "2023-03-15T06:57:45+0300",
+    "initial_created_at": "2023-02-28T06:57:45+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77457400",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77457400",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

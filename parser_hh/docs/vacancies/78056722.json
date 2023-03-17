@@ -1,0 +1,137 @@
+{
+    "id": "78056722",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Ментор по Python (middle+/senior)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 25000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "part",
+        "name": "Частичная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Your CodeReview - </strong>это комьюнити разработчиков и HR, которое помогает программистам любого уровня получить joboffer в компанию своей мечты.</p> <p>На данный момент у нас есть основной продукт - «Карьерный трекинг», в рамках которого мы помогаем получить joboffer на junior и middle позиции, по направлениям: JS, Java, Python, DS и PHP, а также у нас есть курс &quot;Подготовка к собеседованиям&quot;, где тренируются проходить технические собеседования всех возможных форматов.</p> <p>В нашу небольшую, но уютную команду очень нужен <strong>Middle+ / Senior Python разработчика</strong> <strong>в качестве ментора</strong>, который имеет опыт проведения собеседований, знает, что сейчас актуально на рынке, и умеет доносить информацию и знания до своего собеседника. Сама работа занимает около 7-10 часов в неделю. Оплата 1000 руб. / час.</p> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li> <p>Проводить собеседования и консультации разных форматов (mock, алгоритмы, live coding и др.).</p> </li> <li> <p>Проводить code review тестовых заданий и предоставлять фидбэк по ним.</p> </li> <li> <p>Предоставлять обучающие материалы студентам наших курсов.</p> </li> <li>Сопровождать студентов в telegram.</li> </ul> <p><strong>Что мы готовы предоставить:</strong></p> <ul> <li> <p>Работу в комфортном темпе в любое удобное время (вы сами выстраиваете график своих консультаций).</p> </li> <li> <p>Возможность прокачать свои навыки менторства и проведения собеседований для грейда в Teamlead.</p> </li> <li> <p>Поработать в команде единомышленников, которым нравится делиться своими знаниями и помогать другим.</p> </li> <li> <p>Стать частью нашего стартапа, вносить свой вклад в развитие продукта, предлагать свои идеи по улучшению.</p> </li> </ul> <p><strong>Будем очень рады видеть вас в нашей команде!<br /><br />P.S. Отклики с сопроводительным письмом рассматриваются в первом приоритете :)</strong></p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "Django Rest Framework"
+        },
+        {
+            "name": "FastAPI"
+        },
+        {
+            "name": "ООП"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "SOLID"
+        },
+        {
+            "name": "REST"
+        },
+        {
+            "name": "jQuery"
+        },
+        {
+            "name": "Обучение и развитие"
+        },
+        {
+            "name": "Наставничество"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "5962259",
+        "name": "Your CodeReview",
+        "url": "https://api.hh.ru/employers/5962259?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/5962259",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/5799558.jpeg",
+            "90": "https://hhcdn.ru/employer-logo/5799557.jpeg",
+            "original": "https://hhcdn.ru/employer-logo-original/1044725.jpg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5962259&host=hh.ru",
+        "trusted": false
+    },
+    "published_at": "2023-03-14T19:24:33+0300",
+    "created_at": "2023-03-14T19:24:33+0300",
+    "initial_created_at": "2023-03-14T19:24:33+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78056722",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78056722",
+    "working_days": [],
+    "working_time_intervals": [
+        {
+            "id": "from_four_to_six_hours_in_a_day",
+            "name": "Можно работать сменами по 4–6 часов в день"
+        }
+    ],
+    "working_time_modes": [
+        {
+            "id": "start_after_sixteen",
+            "name": "Можно начинать работать после 16:00"
+        }
+    ],
+    "accept_temporary": true,
+    "languages": []
+}

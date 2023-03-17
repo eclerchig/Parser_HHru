@@ -1,0 +1,131 @@
+{
+    "id": "77607628",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Программист Python (Middle)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "24",
+        "name": "Волгоград",
+        "url": "https://api.hh.ru/areas/24?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Neovox Technologies</strong> - команда профессионалов, разрабатывающая комплексные IT решения для российских и зарубежных банков, контактных центров, автодилеров, операторов связи с 2010 года. В команду IT-специалистов входят высококвалифицированные сотрудники с богатым прикладным опытом. Мы добавляем возможности искусственного интеллекта и машинного обучения в процесс общения с клиентами, занимаемся построением интерактивных голосовых сервисов с синтезом и распознаванием речи, проводим глубокую аналитику больших данных, автоматизируем бизнес-процессы наших клиентов. Мы сами разрабатываем ПО и технологические решения для покрытия нужд контактных центров и других наших партнеров. Мы ценим любознательность и активность в наших сотрудниках и поощряем их развитие. Работая в нашей команде ты сможешь поучаствовать в больших и интересных проектах по самым разным направлениям.</p> <p>Приглашаем в нашу команду <strong>программиста Python (Middle)</strong> с опытом разработки от 3 лет.</p> <p><strong>Обязанности:</strong></p> <ul> <li>Разработка серверной части кода распределенных приложений;</li> <li>Документирование своей работы.</li> </ul> <p><strong>Требования:</strong></p> <ul> <li>Уверенное владение Python 3.7 и выше</li> <li>Опыт работы с одним из перечисленных инструментов: Django, FastAPI, AIOHTTP</li> <li>Базовое понимание HTTP</li> <li>Опыт использования Celery или любого другого инструмента очередей</li> <li>Понимание git на уровне часто используемых команд</li> <li>Умение пользоваться Docker и docker-compose</li> <li>Базовое знание linux-подобных операционных систем</li> <li>Желание и умение создавать безопасные сервисы</li> <li>Желание помогать и направлять своих коллег</li> </ul> <p><strong>Будет дополнительным преимуществом:</strong></p> <p> </p> <ul> <li>Понимание REST</li> <li>Умение обращаться с gRPC</li> <li>Опыт работы с Django REST Framework и SQLAlchemy</li> <li>Понимание как работает GitLab CI/CD</li> <li>Умение писать запросы для MongoDB и Solr</li> <li>Опыт с Redis</li> <li>Базовое понимание криптографии и инструмента cryptography в частности</li> <li>Базовое понимание ООП и шаблонов проектирования</li> </ul> <p> </p> <p><strong>Условия:</strong></p> <ul> <li>График работы 5/2 с 9 до 18;</li> <li>Оформление по ТК РФ;</li> <li>Отличный коллектив единомышленников и профессионалов;</li> <li>Возможность карьерного роста и профессионального развития;</li> <li>Возможность пробовать любую эффективную технологию для достижения целей;</li> <li>Возможен удаленный формат работы.</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "FastAPI"
+        },
+        {
+            "name": "AIOHTTP"
+        },
+        {
+            "name": "HTTP"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "REST"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "Solr"
+        },
+        {
+            "name": "Redis"
+        },
+        {
+            "name": "ООП"
+        },
+        {
+            "name": "Python 3.7"
+        },
+        {
+            "name": "SQLAlchemy"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "5029378",
+        "name": "Неовокс Технологии",
+        "url": "https://api.hh.ru/employers/5029378?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/5029378",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/792478.jpg",
+            "90": "https://hhcdn.ru/employer-logo/3610799.jpeg",
+            "240": "https://hhcdn.ru/employer-logo/3610800.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5029378&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T10:27:44+0300",
+    "created_at": "2023-03-15T10:27:44+0300",
+    "initial_created_at": "2023-03-02T15:35:38+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77607628",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77607628",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

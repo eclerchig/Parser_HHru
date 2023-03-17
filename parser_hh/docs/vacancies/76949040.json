@@ -1,0 +1,85 @@
+{
+    "id": "76949040",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Python-разработчик",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>ЦОДД (Центр Организации Дорожного Движения)</strong> – отвечает за организацию и обеспечение безопасности дорожного движения в г. Москва.</p> <p><strong>ЦОДД</strong> развивает улично-дорожную сеть таким образом, чтобы движение по городу стало максимально быстрым, комфортным и безопасным для всех участников: пешеходов, велосипедистов, пассажиров городского транспорта и автомобилистов.</p> <p>Команда профессионалов и экспертов <strong>IT-подразделения</strong> в ЦОДД продолжает развивать Интеллектуальную Транспортную Систему и сейчас мы в поиске талантливых специалистов.</p> <p>Это 38 сложных информационных систем требующих многопрофильных знаний и хорошего погружения в экспертно-выстроенную архитектуру</p> <p> </p> <p><strong>Обязанности:</strong></p> <ul> <li>Уверенное знание базовых технологий: js, css, html</li> <li>Разработка API</li> <li>Написание модулей сбора и обработки данных</li> <li>Участие в проектировании архитектуры разрабатываемых решений</li> </ul> <strong>Требования:</strong> <ul> <li>Законченное высшее образование</li> <li>Опыт работы python (от 3x лет) разработчиком от 1,5 лет</li> <li>Опыт работы с FastAPI/ Flask</li> <li>Опыт работы с PostgreSQL</li> <li>Опыт работы с брокерами сообщений</li> <li>Опыт работы с Redis</li> <li>Опыт работы с системами контроля версий (GIT)</li> <li>Базовые знания SQL, Docker</li> <li>Понимание принципов асинхронного программирования</li> </ul> <strong>Условия:</strong> <ul> <li><strong>Стабильность.</strong> Московский транспорт работает для жителей и гостей города при любых условиях. А мы вносим свой вклад в повышение комфорта его пассажиров. Уникальное сочетание энергии IT-стартапа, стабильности и ресурсов ГОСа</li> <li><strong>Проекты. </strong>Результаты работы можно увидеть на улицах города. Мы вносим свой вклад в повышение комфорта жителей и гостей столицы с помощью IT технологий</li> <li><strong>Развитие.</strong> Мы непрерывно учимся новому у внешних и внутренних экспертов, прокачиваемся не только в IT, а и в транспортной и городской тематике. У нас огромное количество проектов, на которых можно быстро профессионально развиваться. Опытные руководители и наставники. Возможность посещения различных курсов и тренингов от корпоративного университета Департамента транспорта</li> <li><strong>Корпоративный ДМС</strong></li> <li><strong>График.</strong> Удаленка + дни в офисе в центре Москвы, а также возможность работать полностью удаленно из любой точки</li> <li><strong>Заработная плата </strong>обсуждается индивидуально, в зависимости от опыта кандидата</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2935519",
+        "name": "ГКУ Центр организации дорожного движения Правительства Москвы",
+        "url": "https://api.hh.ru/employers/2935519?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2935519",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/4240021.png",
+            "90": "https://hhcdn.ru/employer-logo/4240020.png",
+            "original": "https://hhcdn.ru/employer-logo-original/949871.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2935519&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-13T10:39:23+0300",
+    "created_at": "2023-03-13T10:39:23+0300",
+    "initial_created_at": "2023-02-14T08:30:07+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=76949040",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/76949040",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

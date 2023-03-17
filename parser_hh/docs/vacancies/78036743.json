@@ -1,0 +1,121 @@
+{
+    "id": "78036743",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Senior Python developer",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 300000,
+        "to": 350000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Компания Datadvance в поиске Senior Python Developer</strong> с опытом работы с многопоточностью.</p> <p>Мы занимаемся разработкой облачной платформы для работы с моделями анализа данных и задачами искусственного интеллекта <strong>pSeven Enterprise</strong>.</p> <p><em>DataDvance включена в реестр аккредитованных российских компаний разработчиков ПО.</em></p> <p><strong>Необходимые навыки:</strong></p> <ul> <li> <p>Наличие коммерческого опыта командной разработки ПО - от 7 лет.</p> </li> <li> <p>Хорошие знания Python, с опытом от 4х лет</p> </li> <li> <p>Плотный опыт работы с многопоточностью от 3 лет</p> </li> <li> <p>Умение писать объектно-ориентированный, структурированный и легко читаемый код с грамотными комментариями на английском языке.</p> </li> <li> <p>Опыт разработки больших и сложных программных продуктов.</p> </li> <li> <p>Навыки работы с Linux (используем Ubuntu).</p> </li> <li> <p>Навыки работы с Docker и Kubernetes.</p> </li> </ul> <p><em>Будет плюсом:</em></p> <ul> <li> <p>Опыт разработки на Javascript/Typescript, опыт с Angular 2+ .</p> </li> <li> <p>Опыт настройки Kubernetes, написание Helm charts.</p> </li> <li> <p>Опыт наставничества и руководства небольшой группой программистов.</p> </li> <li> <p>Опыт решения задач с применением методов искусственного интеллекта.</p> </li> </ul> <p><strong>Чем нужно будет заниматься:</strong></p> <ul> <li> <p>Разрабатывать логику приложения (Python 3.5+, микросервисная архитектура).</p> </li> <li> <p>Иногда дорабатывать frontend-функционал на Angular (отдельные фронтендеры в компании тоже есть).</p> </li> <li> <p>Участвовать в code review и улучшать свой код по его результатам.</p> </li> <li> <p>Писать тесты на реализуемый функционал (уделяем большое внимание качеству ПО и тестированию).</p> </li> </ul> <p><strong>Мы предлагаем:</strong></p> <ul> <li> <p>Возможность работать <strong>удаленно из любой страны мира</strong> или в московском офисе (ст. м. Калужская).</p> </li> <li> <p>Официальную заработную плату до 350 т.р. на руки на карту банка РФ, готовы обсуждать пожелания кандидатов.</p> </li> <li> <p>График работы с 10:00 до 18:00 по МСК, 5/2 (гибкое начало дня)</p> </li> <li> <p>Работу в команде опытных специалистов высокой квалификации в продуктовой компании</p> </li> </ul> <p><strong>Подробнее о компании и продукте:</strong> http://datadvance.net</p> <p>Платформой пользуются Airbus, Airbus Helicopters, Airbus Space and Defense, IHI Corporation, AREVA, CNES, Michelin, Porsche, Toyota Motors, Mitsubishi Motors и другие известные компании.</p> <p><strong>Используемые технологии:</strong><br />Backend: Python 3+, Django, Celery, Asyncio, Multiprocessing, GraphQL, PostgreSQL, Redis, Kubernetes, Gitlab CI/CD, Helm.<br />Frontend: Angular, Typescript, Apollo GraphQL Client.</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Английский язык"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Kubernetes"
+        },
+        {
+            "name": "JavaScript"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "3140842",
+        "name": "Шпак Виктория Сергеевна",
+        "url": "https://api.hh.ru/employers/3140842?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/3140842",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/772947.jpg",
+            "90": "https://hhcdn.ru/employer-logo/3532679.jpeg",
+            "240": "https://hhcdn.ru/employer-logo/3532680.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3140842&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-14T13:19:17+0300",
+    "created_at": "2023-03-14T13:19:17+0300",
+    "initial_created_at": "2023-03-14T13:19:17+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78036743",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78036743",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": [
+        {
+            "id": "eng",
+            "name": "Английский",
+            "level": {
+                "id": "b2",
+                "name": "B2 — Средне-продвинутый"
+            }
+        }
+    ]
+}

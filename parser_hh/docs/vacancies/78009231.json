@@ -1,0 +1,100 @@
+{
+    "id": "78009231",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Senior Python Developer",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "3",
+        "name": "Екатеринбург",
+        "url": "https://api.hh.ru/areas/3?host=hh.ru"
+    },
+    "salary": {
+        "from": 280000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong><strong>Компания TWIN</strong> – </strong>ведущий международный разработчик ботов на базе искусственного интеллекта, а также инструментов для автоматизации бизнес-коммуникаций на единой платформе. С помощью наших решений компании выстаивают бесперебойные каналы коммуникации со своими клиентами, исключив человеческий фактор, существенно сократив затраты и повысив скорость обслуживания.</p> <p><strong>Наши клиенты: 2ГИС, Ростелеком, X5 Retail Group, ПЭК, Росгосстрах и еще больше 100 компаний из РФ, Испании, США и стран СНГ.</strong></p> <p>С инженерной точки зрения наша платформа представляет собой порядка 40 сервисов и микросервисов взаимодействующих между собой посредством системной шины сообщений. Платформа омниканальная - что позволяет конечным пользователям платформы на лету переключаться из одного канала общения в другой.</p> <p><strong>Основной стек: </strong>PHP, Go, Python и TypeScript.</p> <p><strong>Наша команда активно расширяется, поэтому мы в поисках Senior Python разработчика.</strong></p> <p><strong>Кого мы ищем -</strong> тех лида, человека готового возглавить наш отдел разработки на Python.</p> <p>Это подразумевает следующие <strong>обязанности</strong>:</p> <ul> <li>Продумывать архитектуру сервисов на Python;</li> <li>Организовывать взаимодействие сервисов на Python с сервисами на других языках программирования;</li> <li>Помогать команде ML (machine learning) в оптимизации использования нейросетей под высокой нагрузкой;</li> <li>Помогать в построении процесса доставки кода в production;</li> <li>Участвовать в собеседовании кандидатов на должность Python разработчика;</li> <li>Следить и поддерживать качество кодирования в отделе.</li> </ul> <p><strong>Что для нас важно: </strong></p> <ul> <li>Знание базовых структур данных, алгоритмов, понимание что такое алгоритмическая сложность;</li> <li>Отличное знание Python и стандартных библиотек/фрэймворков;</li> <li>Опыт работы с микросервисной архитектурой и высокими нагрузками;</li> <li>Знания SQL и опыт работы с базами данных PostgreSQL/MySQL;</li> <li>Понимание принципов CI/CD, опыт контейнеризации приложений и доставки его в production;</li> <li>Опыт создания приложений &quot;с нуля&quot;, от анализа бизнес требований до выпуска в релиз;</li> <li>Опыт работы с kubernetes, ansible, знание Gitlab.</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Высшее техническое (особенно математическое) образование;</li> <li>Опыт в построении процессов разработки;</li> <li>Знание других языков программирования (особенно go);</li> <li>Знания в области ML (machine learning).</li> </ul> <p><strong>Что мы предлагаем:</strong></p> <ul> <li>Достойная заработная плата (ориентируемся на пожелания, опыт и навыки кандидата);</li> <li>Удалённая работа (возможность работать из любой точки мира);</li> <li>Гибкий график работы (возможность работать в любом часовом поясе);</li> <li>Дружелюбную атмосферу, демократичное руководство и отсутствие излишней бюрократии;</li> <li>Возможность работать в офисе в г. Екатеринбург.</li> </ul> <p><strong>О компании:</strong></p> <ul> <li>Год создания 2016 , команда – 100 человек, партнеров TWIN – 40;</li> <li>Партнеров Whitelabel – 17, резиденты Сколково с 2019 года;</li> <li>10 РФ и зарубежных патентов на собственные сервисы (TTS, ASR, NLU, AMD), являемся аттестованным обработчиком персональных данных, входим в реестр IT компаний - разработчиков российского ПО;</li> <li>В 2021 году привлекли инвестиции от CapMan Russia и вошли в группу компаний VOXYS, которая занимает 30% долю на рынке аутсорсинговых услуг КЦ.</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "CI/CD"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "5057995",
+        "name": "TWIN",
+        "url": "https://api.hh.ru/employers/5057995?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/5057995",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/934123.png",
+            "240": "https://hhcdn.ru/employer-logo/4177041.png",
+            "90": "https://hhcdn.ru/employer-logo/4177040.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5057995&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-14T08:02:26+0300",
+    "created_at": "2023-03-14T08:02:26+0300",
+    "initial_created_at": "2023-03-14T08:02:26+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78009231",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78009231",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

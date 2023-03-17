@@ -1,0 +1,97 @@
+{
+    "id": "78147422",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Проверяющий преподаватель на курс \"Python-фреймворк Django\"",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "part",
+        "name": "Частичная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Skillbox</strong> – крупнейшая образовательная онлайн-платформа в России, объединяющая ведущих экспертов и практиков рынка.</p> <p>На сегодняшний день мы предлагаем 780 образовательных продуктов: курсов дополнительного профессионального образования, программ бакалавриата, магистратуры и бизнес-образования (совместно с ведущими университетами страны), а также корпоративное обучение для бизнеса.</p> <p>Благодаря онлайн-образованию Skillbox уже изменил жизни сотен тысяч людей к лучшему. И мы верим, что это только начало.</p> <p>Прямо сейчас наша команда в поиске<em><strong> проверяющего преподавателя на курс: &quot;Python-фреймворк Django&quot;</strong></em><strong><em>.</em></strong><br /><br />Основная задача - это проверка домашних заданий наших любимых студентов (слушателей образовательных курсов Skillbox). Мы стараемся ответить на любой вопрос студентов и никого не оставить без внимания.</p> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li>Проверять работы студентов курсов по курсу &quot;Python-фреймворк Django&quot;</li> <li>Давать обратную связь студентам по выполненным заданиям в письменном виде и оценивать их работы;</li> <li>Нужно отслеживать на все ли вопросы студенты ответили и задавать наводящие/уточняющие вопросы по каждому пункту, чтобы студенты могли глубже проработать тему.</li> <li>Курировать чат со студентами (отвечать на вопросы студентов, создавать активность в чате, участвовать в дискуссиях)</li> </ul> <p><strong>Что необходимо:</strong></p> <ul> <li> <p>Знать Python-фреймворк Django и работать с ним на регулярной основе</p> </li> </ul> <ul> <li>Будет плюсом, работа наставником, ментором или преподавателем.</li> </ul> <p><strong>Мы предлагаем отличные условия:</strong></p> <ul> <li> <p>Вы сами выбираете свой график и уровень нагрузки: гибкий (1-2 часа в день + час - полтора на ответы в чате);</p> </li> <li> <p>Вы работаете когда вам удобно, без привязки ко времени;</p> </li> <li> <p>Постоянство в доходе;</p> </li> <li> <p>Возможность внести свой вклад в развитие онлайн-образования;</p> </li> <li> <p>Помощь и поддержка команды продюсеров курсов и коллег.</p> </li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "2863076",
+        "name": "Skillbox",
+        "url": "https://api.hh.ru/employers/2863076?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/2863076",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/798328.png",
+            "90": "https://hhcdn.ru/employer-logo/3634199.png",
+            "240": "https://hhcdn.ru/employer-logo/3634200.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2863076&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T15:52:13+0300",
+    "created_at": "2023-03-16T15:52:13+0300",
+    "initial_created_at": "2023-03-16T15:52:13+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78147422",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78147422",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [
+        {
+            "id": "start_after_sixteen",
+            "name": "Можно начинать работать после 16:00"
+        }
+    ],
+    "accept_temporary": true,
+    "languages": []
+}

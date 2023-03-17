@@ -1,0 +1,90 @@
+{
+    "id": "77803320",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Разработчик Python (Django)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "104",
+        "name": "Челябинск",
+        "url": "https://api.hh.ru/areas/104?host=hh.ru"
+    },
+    "salary": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Мы предлагаем:</strong></p> <ul> <li> <p>Работу в аккредитованной ИТ-компании</p> </li> <li>Удаленный режим работы с гибким началом рабочего дня (+/- 3 часа от Тюмени)</li> <li>Поощряем развитие сотрудников: проводим митапы, покупаем курсы и книги</li> <li>Корпоративную систему скидок на приобретение жилья</li> <li>Минимум бюрократии: руководители компании открыты к диалогу</li> <li>Возможность реализовать свои идеи и проекты внутри компании</li> <li>Свободный дресс-код</li> </ul> <strong>Чем предстоит заниматься:</strong> <ul> <li> <p>Разработка внутреннего портала и других внутренних продуктов (как пример - система управления проектами, система бюджетирования и т.д.), разработка парсеров сайтов</p> </li> </ul> <strong>Мы ожидаем:</strong> <ul> <li> <p>Опыт коммерческой разработки на Python от 5 лет</p> </li> <li> <p>Опыт работы с Django 3+, Redis, Celery</p> </li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт разработки парсеров сайтов</li> <li> <p>Знание DRF, FastAPI, Git</p> </li> <li> <p>Умение самостоятельно принимать качественные архитектурные решения</p> <p> </p> </li> </ul>",
+    "branded_description": "\n<style>\n\n.tmpl_hh_wrapper {\n    width: 100%;\n    margin: 0 auto;\n    max-width: 690px;\n    position: relative;\n    word-break: normal;\n    font-family: \"Arial\", sans-serif;\n    color: #000;\n    font-size: 16px;\n    line-height: 20px;\n    overflow: hidden;\n}\n.tmpl_hh_wrapper *{\n    box-sizing: border-box;\n}\n.tmpl_hh_wrapper p,\n.tmpl_hh_wrapper a,\n.tmpl_hh_wrapper img,\n.tmpl_hh_wrapper ol,\n.tmpl_hh_wrapper ul,\n.tmpl_hh_wrapper li {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 100%;\n    font: inherit;\n    vertical-align: baseline;\n}\n\n.hht-vacancydescription {\n    padding: 0px;\n}\n\n.tmpl_hh_wrapper .l-cell,\n.tmpl_hh_wrapper .l-paddings {\n    padding: 0px !important;\n}\n\n.tmpl_hh_wrapper .b-vacancy-desc-wrapper {\n    margin-top: 0px !important;    \n}\n\n.tmpl_hh_wrapper .b-vacancy-desc {\n    overflow: visible !important;\n    line-height: inherit;\n}\n\n.tmpl_hh_content ol li b,\n.tmpl_hh_content ol li strong,\n.tmpl_hh_content ol li p b,\n.tmpl_hh_content ol li p strong,\n.tmpl_hh_content ul li b,\n.tmpl_hh_content ul li strong,\n.tmpl_hh_content ul li p b,\n.tmpl_hh_content ul li p strong {\n    font-weight: normal;\n    font-size: inherit !important;\n    color: inherit !important;\n    margin: 0 !important;\n    text-transform: none;\n}\n\n.tmpl_hh_content ol li p,\n.tmpl_hh_content ul li p {\n    font-weight: normal;\n    margin: 0;\n}\n\n.tmpl_hh_content p:first-child,\n.tmpl_hh_content>strong:first-child,\n.tmpl_hh_content div>strong:first-child {\n    margin-top: 0 !important;\n}\n\n.tmpl_hh_content p,\n.tmpl_hh_content b,\n.tmpl_hh_content strong {\n    margin: 0 0 21px;\n}\n.tmpl_hh_content b,\n.tmpl_hh_content strong {\n    color: #000;\n    font-size: 18px;\n    line-height: 20px;\n    display: inline-block;\n}\n.tmpl_hh_content p b,\n.tmpl_hh_content p strong{\n    margin: 0;   \n    display: inline;\n}\n\n.tmpl_hh_content ol,\n.tmpl_hh_content ul {\n    margin-left: 26px;\n    list-style: none !important;\n    margin-bottom: 39px;\n}\n\n.tmpl_hh_content ol {\n    counter-reset: list_counter;\n}\n\n.tmpl_hh_content li {\n    position: relative;\n    margin-bottom: 10px;\n}\n\n.tmpl_hh_content ul ul,\n.tmpl_hh_content ul ol,\n.tmpl_hh_content ol ol,\n.tmpl_hh_content ol ul {\n    margin-top: 8px;\n    margin-bottom: 8px;\n}\n\n.tmpl_hh_content ol>li {\n    counter-increment: list_counter;    \n}\n\n.tmpl_hh_content li:before {\n    content: '';\n    position: absolute;\n    left: -18px;\n    top: 0;\n}\n\n.tmpl_hh_content ul>li:before {\n    width: 5px;\n    height: 5px;\n    border-radius: 100%;\n    background: #000;\n    background-size: contain;\n    left: -14px;\n    top: 7px;\n}\n\n.tmpl_hh_content ol>li:before {\n    content: counter(list_counter)'.';\n    left: auto;\n    right: 100%;\n    margin-right: 2px;\n}\n\n.tmpl_hh_wrapper img{\n    width: 100%;\n    display: block;\n}\n.tmpl_hh_content {\n    padding: 40px 40px 21px;\n}\n.tmpl_hh_content .tmpl_hh_text{\n    margin-bottom: 39px;\n}\n.tmpl_hh_content .tmpl_hh_text p{\n    margin-bottom: 10px;\n}\n.tmpl_hh_footer{\n    display: flex;\n    justify-content: space-between;\n    flex-wrap: wrap;\n    padding: 0 9.4% 60px;\n}\n.tmpl_hh_footer .tmpl_hh_item{\n    width: 30%;\n}\n.tmpl_hh_footer img{\n    height: 70px;\n    width: auto;\n    margin: 0 auto 9px;\n}\n.tmpl_hh_footer p{\n    text-align: center;\n    font-size: 14px;\n    line-height: 16px;\n}\n\n\n@media (max-width: 699px) {\n\n    .tmpl_hh_wrapper{\n        font-size: 14px;\n        line-height: 18px;\n    }\n    .tmpl_hh_content b, .tmpl_hh_content strong{\n        font-size: 16px;\n    }\n    .tmpl_hh_content {\n        padding: 21px 20px 9px;\n    }\n    .tmpl_hh_content p, .tmpl_hh_content b, .tmpl_hh_content strong {\n        margin: 0 0 9px;\n    }\n    .tmpl_hh_content .tmpl_hh_text {\n        margin-bottom: 21px;\n    }\n    .tmpl_hh_content ol, .tmpl_hh_content ul{\n        margin-left: 20px;\n        margin-bottom: 21px;\n    }\n    .tmpl_hh_footer{\n        padding: 0 9.4% 10px;\n    }\n    .tmpl_hh_footer .tmpl_hh_item {\n        width: 100%;\n        margin-bottom: 20px;\n    }\n    .tmpl_hh_footer img{\n        margin: 0 auto 10px;\n    }\n\n    \n}\n</style>\n\n    <div class=\"tmpl_hh_wrapper\">\n        <div class=\"tmpl_hh_header\">\n            <img src=\"https://hhcdn.ru/ichameleon/210266.jpg\" alt=\"\">\n        </div>\n        \n        <div class=\"tmpl_hh_content\">\n            <div class=\"tmpl_hh_text\">\n                <b>О компании</b>\n                <p>«Страна Девелопмент» — надежная, динамично развивающаяся девелоперская компания полного цикла, реализующая крупные проекты в сфере жилой и коммерческой недвижимости на территории России с 2008 года. С нами уже Екатеринбург, Москва,Тюмень и Санкт-Петербург!</p>\n                <p>Мы строим дома, в которых хочется жить, и торговые центры, в которые хочется возвращаться. Мы делаем это качественно и быстро. С любовью к своему делу и высокой ответственностью за результат.</p>\n            </div>\n            <p><strong>Мы предлагаем:</strong></p> <ul> <li> <p>Работу в аккредитованной ИТ-компании</p> </li> <li>Удаленный режим работы с гибким началом рабочего дня (+/- 3 часа от Тюмени)</li> <li>Поощряем развитие сотрудников: проводим митапы, покупаем курсы и книги</li> <li>Корпоративную систему скидок на приобретение жилья</li> <li>Минимум бюрократии: руководители компании открыты к диалогу</li> <li>Возможность реализовать свои идеи и проекты внутри компании</li> <li>Свободный дресс-код</li> </ul> <strong>Чем предстоит заниматься:</strong> <ul> <li> <p>Разработка внутреннего портала и других внутренних продуктов (как пример - система управления проектами, система бюджетирования и т.д.), разработка парсеров сайтов</p> </li> </ul> <strong>Мы ожидаем:</strong> <ul> <li> <p>Опыт коммерческой разработки на Python от 5 лет</p> </li> <li> <p>Опыт работы с Django 3+, Redis, Celery</p> </li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт разработки парсеров сайтов</li> <li> <p>Знание DRF, FastAPI, Git</p> </li> <li> <p>Умение самостоятельно принимать качественные архитектурные решения</p> <p> </p> </li> </ul></div>\n\n        <div class=\"tmpl_hh_footer\">\n            <div class=\"tmpl_hh_item\">\n                <img src=\"https://hhcdn.ru/ichameleon/187131.svg\" alt=\"\">\n                <p>Система обучения \n                    <br>и развития персонала, <br>софинансирование <br>обучения</p>\n            </div>\n            <div class=\"tmpl_hh_item\">\n                <img src=\"https://hhcdn.ru/ichameleon/187130.svg\" alt=\"\">\n                <p>Релокационный пакет <br>для иногородних <br>специалистов</p>\n            </div>\n            <div class=\"tmpl_hh_item\">\n                <img src=\"https://hhcdn.ru/ichameleon/187132.svg\" alt=\"\">\n                <p>Особые условия \n                    <br>при покупке жилья \n                    <br>для сотрудников</p>\n            </div>\n        </div>\n    </div>\n\n",
+    "vacancy_constructor_template": null,
+    "key_skills": [],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4162557",
+        "name": "Страна Девелопмент",
+        "url": "https://api.hh.ru/employers/4162557?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4162557",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/662049.jpg",
+            "240": "https://hhcdn.ru/employer-logo/3089329.jpeg",
+            "90": "https://hhcdn.ru/employer-logo/3089328.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4162557&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-09T08:56:10+0300",
+    "created_at": "2023-03-09T08:56:10+0300",
+    "initial_created_at": "2023-03-09T08:56:10+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77803320",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77803320",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

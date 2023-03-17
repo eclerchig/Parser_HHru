@@ -1,0 +1,155 @@
+{
+    "id": "77721078",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Middle BackEnd разработчик (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "Нижняя улица",
+        "building": "14с7",
+        "lat": 55.776168,
+        "lng": 37.570312,
+        "description": null,
+        "raw": "Москва, Нижняя улица, 14с7",
+        "metro": {
+            "station_name": "Белорусская",
+            "line_name": "Замоскворецкая",
+            "station_id": "2.19",
+            "line_id": "2",
+            "lat": 55.777439,
+            "lng": 37.582107
+        },
+        "metro_stations": [
+            {
+                "station_name": "Белорусская",
+                "line_name": "Замоскворецкая",
+                "station_id": "2.19",
+                "line_id": "2",
+                "lat": 55.777439,
+                "lng": 37.582107
+            },
+            {
+                "station_name": "Белорусская",
+                "line_name": "Кольцевая",
+                "station_id": "5.20",
+                "line_id": "5",
+                "lat": 55.775179,
+                "lng": 37.582303
+            },
+            {
+                "station_name": "Белорусская",
+                "line_name": "МЦД - 1",
+                "station_id": "131.700",
+                "line_id": "131",
+                "lat": 55.775179,
+                "lng": 37.582303
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>VERME</strong><strong> уже более 6 лет является экспертом </strong><strong>WFM</strong><strong> на российском рынке.</strong></p> <p><em>Мы создаем WFM решения для торговых сетей, аптек, предприятий быстрого питания, логистических компаний, операторов мобильной связи. Мы лидер российской разработки в этом сегменте </em><em>IT</em><em>-решений и по праву соперничаем с крупными международными разработчиками, а кое-что делаем круче их. Несмотря на кризис и пандемию мы активно растем и открываем новые рынки. А значит, мы ищем профессионалов.</em></p> <p><em>Нам важно, чтобы тебя драйвил результат, а работа, сделанная вовремя дарила уважение, мы смотрим на ошибки, как на возможности развития, а решения комплексных задач ищем в совместном обсуждении, мы чутко реагируем на изменения, а сложности воспринимаем как вызов собственным ограничениям.</em></p> <p><em>Если ты любишь решать не тривиальные задачи, тебе важно работать над созданием востребованного IT-продукта, решать кейсы крупнейших компаний России и не только, ты именно тот, кого мы ищем!</em></p> <p><em>Одно из направлений наших продуктов – компания Моя Смена – Uber-платформа для розницы, через которую магазины могут заказать Самозанятых Исполнителей для усиления штата в периоды пиковой нагрузки или нехватки собственных сотрудников. 10 лет назад никто не знал про Uber или Яндекс Такси, у вас есть возможность оказаться у истоков аналогичной трансформации на рынке временного персонала.</em></p> <p><em>Моей Сменой уже пользуются крупнейшие розничные сети страны, мы растём, развиваемся, ускоряемся на выбранных путях и постоянно ищем новые.</em></p> <p><strong>Мы ожидаем, что ты:</strong></p> <ul> <li> <p>Хочешь развиваться сам и развивать продукт Моя Смена</p> </li> <li> <p>Умеешь писать быстрый и поддерживаемый код</p> </li> <li> <p>Получаешь удовольствие от выполнения сложных и интересных задач</p> </li> <li> <p>Мотивирован на работу без внешнего контроля, проактивен</p> </li> <li> <p>Приносишь в команду новые идеи и помогаешь внедрять лучшие практики</p> </li> <li> <p>С удовольствием обмениваешься опытом с коллегами</p> </li> <li> <p>Понимаешь, что результат — это не написанный код, а довольные пользовательи</p> </li> </ul> <p><strong>Необходимые навыки:</strong></p> <ul> <li> <p>Опыт работы с Python-фреймворками, например Django, Flask, FastAPI или AIOHTTP</p> </li> <li> <p>Опыт работы с SQL и NoSQL БД, оптимизации запросов, написания миграций</p> </li> <li> <p>Владение инструментами логирования, мониторинга и диагностики ошибок и производительности</p> </li> <li> <p>Знания в области System Design, опыт построения RESTful API</p> </li> <li> <p>Владение Docker, docker-compose</p> </li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li> <p>Владение другими языками программирования помимо Python</p> </li> <li> <p>Опыт работы с высоконагруженными системами</p> </li> <li> <p>Опыт разбиения монолита на сервисы</p> </li> <li> <p>Владение инструментами и опыт настройки CI/CD</p> </li> </ul> <strong>Условия:</strong> <ul> <li>Официальное оформление по ТК</li> <li>Достойный уровень оплаты</li> <li>Удаленный формат работы</li> <li>ДМС</li> <li>Карьерный рост</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "aiohttp"
+        },
+        {
+            "name": "Docker-compose"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "REST"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Django"
+        },
+        {
+            "name": "Docker"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "3629847",
+        "name": "Верме",
+        "url": "https://api.hh.ru/employers/3629847?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/3629847",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/821535.jpg",
+            "240": "https://hhcdn.ru/employer-logo/3727028.jpeg",
+            "90": "https://hhcdn.ru/employer-logo/3727027.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3629847&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-15T13:59:31+0300",
+    "created_at": "2023-03-15T13:59:31+0300",
+    "initial_created_at": "2023-03-06T13:59:31+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77721078",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77721078",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}
