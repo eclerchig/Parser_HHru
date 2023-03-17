@@ -11,13 +11,15 @@ import time
 PATH_JSON_FILES = os.path.join(os.path.dirname(__file__), '..\\..\\..\\docs\\')
 HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.12785 YaBrowser/13.12.1599.12785 Safari/537.36'}
 START_TIME = time.time()
+NUM_VACANCIES = 0
 
 async def get_page(current_page: int, session: aiohttp.ClientSession):
     params = {
         'text': 'NAME:Python',
         # 'area': 54,
         'schedule': 'remote',
-        'page': current_page
+        'page': current_page,
+        'per_page': 100
     }
     resp = await session.get('https://api.hh.ru/vacancies', data=params, headers=HEADER)
     if resp.status == 200:
@@ -34,6 +36,7 @@ async def get_page(current_page: int, session: aiohttp.ClientSession):
 
 async def get_vacancies(page: int, session: aiohttp.ClientSession):
     page_json, current_page = await get_page(page, session)
+    global NUM_VACANCIES
     for item in page_json['items']:
         resp = await session.get(item['url'], headers=HEADER)
         json_vac = await resp.json()
@@ -41,7 +44,8 @@ async def get_vacancies(page: int, session: aiohttp.ClientSession):
         f = open(nextFileName, mode='w', encoding='utf8')
         f.write(json.dumps(json_vac, ensure_ascii=False, indent=4))
         f.close()
-        print(f'[INFO] GET VAC from {current_page}: {item["id"]}')
+        print(f'[INFO] GET VAC from {current_page} page: {item["id"]}')
+        NUM_VACANCIES += 1
         time.sleep(0.25)
 
 def remove_files(path):
@@ -58,7 +62,7 @@ async def update_parse():
         remove_files(dir)
 
     async with aiohttp.ClientSession() as session:
-        tasks = (get_vacancies(page, session) for page in range(0, 5))
+        tasks = (get_vacancies(page, session) for page in range(0, 10))
         await asyncio.gather(*tasks)
 
     print('[INFO] URL вакансий собраны')
@@ -136,3 +140,4 @@ def start():
 
 asyncio.run(update_parse())
 print("[INFO] Время работы update_parse() {:.2f} sec".format(time.time() - START_TIME))
+print("[INFO] Количество вакансий:", NUM_VACANCIES)
