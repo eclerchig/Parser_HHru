@@ -1,17 +1,19 @@
-import requests
 import json
-import time
 import pandas as pd
 from sqlalchemy import engine as sql
 from IPython import display
 import os
 import aiohttp, asyncio
 import time
+import environ
 
 PATH_JSON_FILES = os.path.join(os.path.dirname(__file__), '..\\..\\..\\docs\\')
 HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.12785 YaBrowser/13.12.1599.12785 Safari/537.36'}
-START_TIME = time.time()
 NUM_VACANCIES = 0
+START_TIME = time.time()
+
+ENV = environ.Env()
+environ.Env.read_env(os.path.dirname(__file__) + '\\..\\..\\..\\parser_hh\\.env')
 
 async def get_page(current_page: int, session: aiohttp.ClientSession):
     params = {
@@ -23,7 +25,7 @@ async def get_page(current_page: int, session: aiohttp.ClientSession):
     }
     resp = await session.get('https://api.hh.ru/vacancies', data=params, headers=HEADER)
     if resp.status == 200:
-        print(f'[INFO] GET PAGE: {current_page+1}')
+        #print(f'[INFO] GET PAGE: {current_page+1}')
         num_files = len(os.listdir(os.path.join(PATH_JSON_FILES, 'pagination\\')))
         nextFileName = os.path.join(PATH_JSON_FILES, 'pagination\\', '{}.json'.format(num_files))
         json_page = await resp.json()
@@ -44,9 +46,11 @@ async def get_vacancies(page: int, session: aiohttp.ClientSession):
         f = open(nextFileName, mode='w', encoding='utf8')
         f.write(json.dumps(json_vac, ensure_ascii=False, indent=4))
         f.close()
-        print(f'[INFO] GET VAC from {current_page} page: {item["id"]}')
+        #print(f'[INFO] GET VAC from {current_page} page: {item["id"]}')
         NUM_VACANCIES += 1
         time.sleep(0.25)
+    if (page_json['pages'] - page) <= 1:
+        return
 
 def remove_files(path):
     for file in os.listdir(path):
@@ -62,8 +66,9 @@ async def update_parse():
         remove_files(dir)
 
     async with aiohttp.ClientSession() as session:
-        tasks = (get_vacancies(page, session) for page in range(0, 10))
+        tasks = (get_vacancies(page, session) for page in range(0, 1))
         await asyncio.gather(*tasks)
+        await session.close()
 
     print('[INFO] URL вакансий собраны')
 
@@ -75,6 +80,7 @@ def clear_db(db_connect):
 
 
 def update_db():
+    print('[INFO] URL вакансий собраны')
     IDs = []  # Список идентификаторов вакансий
     names = []  # Список наименований вакансий
     urls = []
@@ -83,8 +89,6 @@ def update_db():
     skills_vac = []  # Список идентификаторов вакансий
     skills_name = []  # Список названий навыков
 
-    # В выводе будем отображать прогресс
-    # Для этого узнаем общее количество файлов, которые надо обработать
     # Счетчик обработанных файлов установим в ноль
     cnt_docs = len(os.listdir(PATH_JSON_FILES + '\\vacancies'))
     i = 0
@@ -96,7 +100,6 @@ def update_db():
         jsonText = f.read()
         f.close()
 
-        # Текст файла переводим в справочник
         json_vac = json.loads(jsonText)
 
         # Заполняем списки для таблиц
@@ -113,8 +116,8 @@ def update_db():
         i += 1
         display.clear_output(wait=True)
         display.display('Готово {} из {}'.format(i, cnt_docs))
-
-    eng = sql.create_engine('postgresql://postgres:femupe95_eclerchig@localhost:5432/DB_vacancies_HH')
+    ENV("DJANGO_ALLOWED_HOSTS")
+    eng = sql.create_engine(ENV("DB_INFO"))
     CONN = eng.connect()
 
     clear_db(CONN)
@@ -131,13 +134,10 @@ def update_db():
     display.clear_output(wait=True)
     display.display('Вакансии загружены в БД')
 
-
 def start():
     asyncio.run(update_parse())
     print("[INFO] Время работы update_parse() {:.2f} sec".format(time.time() - START_TIME))
+    print("[INFO] Количество вакансий:", NUM_VACANCIES)
     update_db()
     print('[INFO] PARSING DONE')
 
-asyncio.run(update_parse())
-print("[INFO] Время работы update_parse() {:.2f} sec".format(time.time() - START_TIME))
-print("[INFO] Количество вакансий:", NUM_VACANCIES)
