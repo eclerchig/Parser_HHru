@@ -1,0 +1,122 @@
+{
+    "id": "76160582",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Разработчик Python под Linux",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "3",
+        "name": "Екатеринбург",
+        "url": "https://api.hh.ru/areas/3?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>«Айдеко» - аккредитованная ИТ-компания, разработчик программного обеспечения в области информационной безопасности и сетевых технологий. </strong><br /><strong>Ideco UTM - продукт для защиты сети компании, в котором есть межсетевой экран, VPN-сервер, контроль приложений, контентная фильтрация, предотвращение вторжений и многое другое.<br />Cтек технологий:</strong> Linux Fedora 35, Python 3.10 с постоянным обновлением до новой и стабильной версии, ETCD, Clickhouse, Asyncio, aiohttp.</p> <p>Задачи в разработке по-настоящему разные: от исправления шаблона конфига nginx до реализации приложений по обработке сетевого трафика. Придется постоянно работать на стыке бакенда и системы, поэтому знания Linux обязательны.</p> <p>Если ты хочешь реализовать свой потенциал, стать частью нового продукта, не боишься сложных решений, хочешь работать на новом стеке, то мы просто обязаны с тобой познакомиться,</p> <p><strong>ведь мы готовы тебе дать возможность:</strong></p> <ul> <li> <p>разрабатывать микросервисы с использованием Asyncio и AioHTTP;</p> </li> <li> <p>разрабатывать демоны по настройке и управлению сетью;</p> </li> <li> <p>писать системные утилиты в Linux;</p> </li> <li> <p>проектировать архитектуру системы и бакендов;</p> </li> <li> <p>участвовать в код-ревью;</p> </li> <li> <p>рефакторить - куда ж без него родимого.</p> </li> </ul> <p><strong>Ты нам подходишь, если у тебя есть:</strong></p> <ul> <li><strong>опыт коммерческой разработки, уровень не ниже middle;</strong></li> <li><strong>навыки администрирования Linux;</strong></li> <li>опыт работы с Systemd;</li> <li>понимание сетевых протоколов, модели OSI, протоколов прикладного уровня (HTTP, TLS, FTP, SMB);</li> <li>опыт работы с виртуализацией;</li> <li>опыт проектирования REST-API.</li> </ul> <p><strong>Будет классно, если у тебя будет следующий опыт:</strong></p> <ul> <li>написания юнит тестов;</li> <li>разработки c NoSQL базами данных (у нас Etcd);</li> <li>разработки на C/C++.</li> </ul> <p>Но если его нет, то не страшно. Мы готовы дать тебе возможность развития в этих технологиях :)</p> <p><strong>Мы предлагаем:</strong></p> <ul> <li> <p>задачи: интересные, сложные, где-то непонятные, в общем все, как ты любишь;</p> </li> <li> <p>работу у лидера в отрасли по выпускам релизов - подробнее по нашим процессам в разработке тут: https://www.youtube.com/watch?v=Gioj3HfPNmY&amp;t=3419s</p> </li> <li> <p>график: удобный, с возможностью удаленной работы;</p> </li> <li> <p>команда: крутые профессионалы своего дела, в числе которых Коренберг Марк (https://github.com/socketpair);</p> </li> <li> <p>обучение: наставник на испытательном сроке, а так же другое внутреннее обучение и, при желании, оплата внешнего;</p> </li> <li> <p>разработка: по Scrum, используем Jira, коммуникации в Discord;</p> </li> <li>забота о здоровье: ДМС для сотрудников;</li> <li> <p>офис: если ты из Екб, пригоняй на Кулибина 2, приготовим вкусный кофе, накормим вкусняшками, поиграем в настолки;</p> </li> <li> <p>оформление: официальное трудоустройство, &quot;белая&quot; зарплата</p> </li> <li> <p>бесплатное обучение английскому языку с преподавателем.</p> </li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Nginx"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Asyncio"
+        },
+        {
+            "name": "aiohttp"
+        },
+        {
+            "name": "Squid"
+        },
+        {
+            "name": "Сетевые технологии"
+        },
+        {
+            "name": "Информационная безопасность"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Асинхронное программирование"
+        },
+        {
+            "name": "Clickhouse"
+        },
+        {
+            "name": "ETCD"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "111611",
+        "name": "Айдеко",
+        "url": "https://api.hh.ru/employers/111611?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/111611",
+        "logo_urls": {
+            "90": "https://hhcdn.ru/employer-logo/3402685.png",
+            "240": "https://hhcdn.ru/employer-logo/3402686.png",
+            "original": "https://hhcdn.ru/employer-logo-original/740427.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=111611&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-14T15:22:40+0300",
+    "created_at": "2023-03-14T15:22:40+0300",
+    "initial_created_at": "2023-01-24T17:08:13+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=76160582",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/76160582",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

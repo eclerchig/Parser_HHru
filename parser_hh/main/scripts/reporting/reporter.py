@@ -1,7 +1,11 @@
 import sqlalchemy
 import pandas as pd
 import math
+import environ
+import os
 
+ENV = environ.Env()
+environ.Env.read_env(os.path.dirname(__file__) + '\\..\\..\\..\\parser_hh\\.env')
 
 class GenReport:
     def __init__(self):
@@ -23,8 +27,7 @@ class GenReport:
         return self._skills
 
     def get_vacs_by_token(self, token):
-        conn = sqlalchemy.create_engine(
-            'postgresql://postgres:femupe95_eclerchig@localhost:5432/DB_vacancies_HH').connect()
+        conn = sqlalchemy.create_engine(ENV("DB_INFO")).connect()
 
         # Загружаем наименования вакансий
         sql = 'select name_vac, url_hh from public.main_vacancies'
@@ -69,8 +72,7 @@ class GenReport:
         return self._tokens_df['idf'].count()
 
     def generate_tokens(self):
-        conn = sqlalchemy.create_engine(
-            'postgresql://postgres:femupe95_eclerchig@localhost:5432/DB_vacancies_HH').connect()
+        conn = sqlalchemy.create_engine(ENV("DB_INFO")).connect()
 
         # Загружаем наименования вакансий
         sql = 'select name_vac from public.main_vacancies'
@@ -103,7 +105,7 @@ class GenReport:
         # не важно Старший аналитик данных или Младший, нам важно, что он аналитик данных
         # Также исключаем биграммы, которые встречаются реже, чем в 1-ой тысячной всех вакансий
         cv = CountVectorizer(
-            ngram_range=(1, 2),
+            ngram_range=(2, 2),
             stop_words=['главный', 'эксперт', 'старший', 'для', 'по'],
             min_df=0.001
         )

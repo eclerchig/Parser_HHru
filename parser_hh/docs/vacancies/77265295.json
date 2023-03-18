@@ -1,0 +1,124 @@
+{
+    "id": "77265295",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Ведущий Python Backend разработчик",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": null,
+        "to": 400000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Кого мы ищем:</strong></p> <ul> <li>мы ищем единомышленника в новую команду по разработке финансовых сервисов в области кредитного ритейла</li> </ul> <p><strong>Задачи:</strong></p> <ul> <li>разработка бэкенда внешних (B2C) и внутренних ИТ-продуктов и сервисов компании на Python</li> <li>участие в разработке продуктов с аналитиками и бизнесом</li> <li>ревью и аудит архитектуры решений, рефакторинг, работа с тех. долгом</li> <li>оптимизация внутренних процессов разработки и работы с кодом</li> <li>поддержка продуктов в Production</li> </ul> <p><strong>Требования к позиции:</strong></p> <ul> <li>высокий уровень самостоятельности и самоорганизации, инженерной культуры</li> <li>честность и ответственность перед коллегами</li> <li>опыт проектирования API и сервисов с нуля, понимание современных принципов разработки Веб-приложений и архитектур (SPA, Clean Architecture, микросервисы, DDD)</li> <li>отличные знания современных протоколов Веба (HTTP, Websockets)</li> <li>отличные знания Python, включая асинхронный Python и фреймворки на его основе: FastAPI, aiohttp, Tornado, Sanic и т.д.</li> <li>отличные знания статической типизации в Python (annotations, typing)</li> <li>опыт применения инструментов статического анализа кода, тулинга для оценки покрытия тестами: flake8, mypy, pytest, Black и тд.</li> <li>знания Linux, Bash, Docker на достаточном уровне для разработки и эксплуатации</li> <li>понимание основ работы компьютерных сетей</li> </ul> <p><strong>Плюсами будут:</strong></p> <ul> <li>понимание современных методов CI/CD и эксплуатации веб-приложений</li> <li>широкий кругозор в области современных технологий</li> <li>английский язык на уровне понимания тех. документации</li> <li>опыт работы с облачными PaaS-платформами (AWS, GCP, Yandex Cloud)</li> </ul> <p><strong>Что мы предлагаем:</strong></p> <ul> <li>минимальную бюрократию и непосредственную коммуникацию с руководством бизнеса</li> <li>перспективы роста вместе с компанией до тимлида или даже CTO</li> <li>минимальное количество Legacy, возможность выстроить процессы с нуля</li> <li>компенсация программ обучения и повышения квалификации, включая иностранные языки</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Backend"
+        },
+        {
+            "name": "FastAPI"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Pytest"
+        },
+        {
+            "name": "asyncio"
+        },
+        {
+            "name": "DDD"
+        },
+        {
+            "name": "Docker"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4968470",
+        "name": "МКК Всегда в плюсе",
+        "url": "https://api.hh.ru/employers/4968470?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4968470",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/5526481.png",
+            "90": "https://hhcdn.ru/employer-logo/5526480.png",
+            "original": "https://hhcdn.ru/employer-logo-original/976410.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4968470&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-17T09:51:32+0300",
+    "created_at": "2023-03-17T09:51:32+0300",
+    "initial_created_at": "2023-02-21T09:51:32+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77265295",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77265295",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": [
+        {
+            "id": "eng",
+            "name": "Английский",
+            "level": {
+                "id": "c1",
+                "name": "C1 — Продвинутый"
+            }
+        }
+    ]
+}

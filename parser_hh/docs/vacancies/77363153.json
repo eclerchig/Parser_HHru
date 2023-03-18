@@ -1,0 +1,99 @@
+{
+    "id": "77363153",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Team Lead with back-end (Python) - remote",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 4000,
+        "to": 5000,
+        "currency": "USD",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "moreThan6",
+        "name": "Более 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>NovaKid is a fast growing online English school for 4-12 year olds. We are on a mission to create the best in the world online education platform for children. Today, we have over 80,000 students from more than 40 countries supported by 2,500 native speaking teachers.</p> <p>We are looking for an exceptional team lead with a strong background in backend development to join our student experience team.</p> <p>You will …</p> <ul> <li> <p>Provide leadership and guidance to the diverse team of front-end and back-end developers</p> </li> <li> <p>Contribute to the codebase: 60% code 40% management</p> </li> <li> <p>Work closely with the product manager and a wider product team to drive forward the development of the student area, including classroom and educational games</p> </li> <li> <p>Be responsible for the architecture, quality, and performance developed applications</p> </li> <li> <p>Ensure right processes are put in place and right tooling is used throughout the development process</p> </li> <li> <p>Be a proactive member of the technical leadership team and contribute to the overall product development</p> </li> </ul> <p>You have ...</p> <ul> <li> <p>Degree in Computer Science, Software Engineering or a related field</p> </li> <li> <p>3+ years of experience in leading development teams</p> </li> <li> <p>5+ years of experience as Python developer</p> </li> <li> <p>Experience in designing and developing scalable backends and REST APIs</p> </li> <li> <p>Experience working with our stack: FastAPI, Pyramid, Socket.io, PostgreSQL, SQLAlchemy, Celery, RabbitMQ</p> </li> <li> <p>Fluent or professional English</p> </li> </ul> <p>A bonus if you have …</p> <ul> <li> <p>Worked on e-learning projects and/or game development projects</p> </li> <li> <p>Developed and deployed application on AWS</p> </li> </ul> <p>We offer...</p> <ul> <li> <p>Remote work (core hours GMT+3)</p> </li> <li> <p>Friendly young team</p> </li> <li> <p>Unlimited holidays</p> </li> <li> <p>Bonuses and stock options</p> </li> </ul> <ul> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "851716",
+        "name": "Novakid Inc",
+        "url": "https://api.hh.ru/employers/851716?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/851716",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/1014785.png",
+            "90": "https://hhcdn.ru/employer-logo/5679908.png",
+            "240": "https://hhcdn.ru/employer-logo/5679909.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=851716&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-17T10:10:06+0300",
+    "created_at": "2023-03-17T10:10:06+0300",
+    "initial_created_at": "2023-02-24T10:10:06+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77363153",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77363153",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": [
+        {
+            "id": "eng",
+            "name": "Английский",
+            "level": {
+                "id": "b2",
+                "name": "B2 — Средне-продвинутый"
+            }
+        }
+    ]
+}

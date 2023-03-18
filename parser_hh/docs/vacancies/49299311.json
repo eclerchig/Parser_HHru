@@ -1,0 +1,145 @@
+{
+    "id": "49299311",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Python-разработчик в R&D отдел",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "2",
+        "name": "Санкт-Петербург",
+        "url": "https://api.hh.ru/areas/2?host=hh.ru"
+    },
+    "salary": {
+        "from": 100000,
+        "to": 150000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "Петровский бульвар",
+        "building": "15с1",
+        "lat": 55.768269,
+        "lng": 37.615982,
+        "description": null,
+        "raw": "Москва, Петровский бульвар, 15с1",
+        "metro": {
+            "station_name": "Трубная",
+            "line_name": "Люблинско-Дмитровская",
+            "station_id": "10.177",
+            "line_id": "10",
+            "lat": 55.76771,
+            "lng": 37.621926
+        },
+        "metro_stations": [
+            {
+                "station_name": "Трубная",
+                "line_name": "Люблинско-Дмитровская",
+                "station_id": "10.177",
+                "line_id": "10",
+                "lat": 55.76771,
+                "lng": 37.621926
+            },
+            {
+                "station_name": "Цветной бульвар",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.154",
+                "line_id": "9",
+                "lat": 55.771653,
+                "lng": 37.620466
+            },
+            {
+                "station_name": "Чеховская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.123",
+                "line_id": "9",
+                "lat": 55.765747,
+                "lng": 37.608493
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>Обязанности</strong>:</p> <ul> <li>Написание чистого, понятного кода</li> <li>Реализация сетевых клиентов и протоколов по документации</li> <li>Взаимодействие с исследователями</li> <li>Покрытие тестами</li> <li>Написание документации</li> <li>Ведение репозитория (версионирование, релизы, поддержка)</li> </ul> <p> </p> <p><strong>Требования</strong>:</p> <ul> <li>Уверенное знание Python3</li> <li>Умение использовать ООП</li> <li>Знание сетевых протоколов разного уровня (TCP, UDP, HTTP, WebSocket, etc) и способов сериализации (struct, protobuf, json, etc)</li> <li>Опыт многопоточной и асинхронной разработки (threading, asyncio), знание примитивов синхронизации</li> <li>Умение покрывать свой код автотестами (pytest, tox, mock) и пользоваться линтерами (flake8, pylint, mypy)</li> <li>Умение работать с системами контроля версий (Git)</li> </ul> <p> </p> <p><strong>Как преимущество</strong>:</p> <ul> <li>Опыт реверс-инжиниринга и анализа трафика</li> <li>Понимание основ криптографии</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "ООП"
+        },
+        {
+            "name": "HTTP"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Git"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4920624",
+        "name": "Селфсек",
+        "url": "https://api.hh.ru/employers/4920624?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4920624",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/793739.png",
+            "90": "https://hhcdn.ru/employer-logo/3615843.png",
+            "240": "https://hhcdn.ru/employer-logo/3615844.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4920624&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T00:51:12+0300",
+    "created_at": "2023-03-16T00:51:12+0300",
+    "initial_created_at": "2021-11-01T19:38:16+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=49299311",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/49299311",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true,
+    "languages": []
+}

@@ -3,7 +3,6 @@ def draw_bar_chart(df, col1, col2):
         'data': {},
         'layout': {}
     }
-    print('df\n', df)
     if df is not None:
         data = {
             'x': df[col1].to_list(),
@@ -33,8 +32,6 @@ def draw_bar_chart(df, col1, col2):
             'data': [data],
             'layout': layout
         }
-    print('data\n', data)
-    print('layout\n', layout)
     return bar_chart
 
 

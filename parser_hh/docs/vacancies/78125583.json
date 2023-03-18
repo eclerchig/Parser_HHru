@@ -1,0 +1,106 @@
+{
+    "id": "78125583",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Разработчик Python",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": null,
+        "to": 230000,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Требуется сотрудник в компанию, которая является разработчиком программных продуктов для оказания облачных услуг и платформы динамической инфраструктуры.</p> <p><strong>Требования:</strong></p> <ul> <li> <p>Опыт коммерческой разработки на <strong>Python от 3х лет</strong>;</p> </li> <li> <p>Опыт разработки <strong>REST API на каком-либо из мини-фреймворков </strong>(Flask, Bottle и др);</p> </li> <li> <p><strong>Понимание работы асинхронных фреймворков</strong></p> </li> <li> <p>Опыт работы с <strong>БД через ORM фреймворк </strong>(SQLAlchemy, DjangoORM);</p> </li> <li> <p>Знания операционных систем Linux на уровне уверенного пользователя (опыт администрирования будет преимуществом);</p> </li> <li> <p>Проявлять самостоятельность и проактивность, гибкость, ответственность.</p> </li> </ul> <p><strong>Будет преимуществом:</strong></p> <p>Опыт работы с системами управления виртуализации/системами VDI (OpenStack, VM Ware, Citrix, Virtuozzo);</p> <ul> <li> <p>Опыт работы с сетевыми сокетами.</p> </li> </ul> <p><strong>Задачи:</strong></p> <ul> <li>Рефакторинг существующего кода, устранение багов по заявкам техподдержки</li> <li>Разработка новых модулей на python 3.x</li> <li>Разработка интеграционных модулей для различных систем виртуализации на python 3.x</li> <li>Поддержка модулей на python 3.x и 2.7</li> <li>Принятие архитектурных решений вместе с командой</li> <li>Участие в документировании и тестировании кода</li> <li>Оптимизация и автоматизация процесса разработки</li> </ul> <p><strong>Условия:</strong>​​​​​​​</p> <ul> <li>Официальное трудоустройство по ТК РФ</li> <li>Достойная заработная плата обсуждается индивидуально с каждым кандидатом (в зависимости от опыта)</li> <li>График работы 5/2 с пн-пт, гибкое начало дня</li> <li>Удалённая работа</li> <li>Ежеквартальные премии</li> <li>Социальный пакет (ДМС, оплата мобильной связи)</li> <li>Обучение внутри компании и на внешних курсах</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "REST API"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Удаленная работа"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "710",
+        "name": "Staffwell",
+        "url": "https://api.hh.ru/employers/710?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/710",
+        "logo_urls": {
+            "90": "https://hhcdn.ru/employer-logo/308511.png",
+            "240": "https://hhcdn.ru/employer-logo/381368.png",
+            "original": "https://hhcdn.ru/employer-logo-original/233380.gif"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=710&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T11:03:47+0300",
+    "created_at": "2023-03-16T11:03:47+0300",
+    "initial_created_at": "2023-03-16T11:03:47+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78125583",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/78125583",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

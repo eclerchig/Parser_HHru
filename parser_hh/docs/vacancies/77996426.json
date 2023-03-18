@@ -1,0 +1,123 @@
+{
+    "id": "77996426",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Middle python developer",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>Привет! Ищу начинающего, но жаждущего знаний разработчика на python в IT-подразделение российского крупнейшего холдинга, который занимает одно из ведущих позиций в нише розничной торговли продуктами питания и косметики.</p> <p>У бэк-команды в стадии активной реализации суперамбициозный проект, который в перспективе пары лет будет охватывать все бизнес-процессы компании и помогать всем сотрудникам (а это несколько тысяч человек) решать рабочие таски.</p> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li>Проектирование и реализация микросервисов;</li> <li>Реализация интеграций готового коробочного решения с другими корпоративными системами (back/API)</li> </ul> <p> </p> <p><strong>Наш идеальный кандидат:</strong></p> <ul> <li>Имеет <strong>коммерческий</strong> опыт работы <strong>не менее 1,5-2 года</strong>;</li> <li>Знаком с решением <strong>Elma 365</strong>, понимает его особенности и масштабируемость;</li> <li>Если не знаком - <strong>занимался интеграционными сервисами</strong>, и может продумать логику микросервисов, исходя из возможности сервиса;</li> <li>Работает с <strong>FastAPI</strong> (но если используешь в работе Flask или Django и готов перейти - это не проблема);</li> <li>Использует на проекте <strong>PostgreSQL</strong>;</li> <li>Базово <strong>понимает “доставочную” часть процесса</strong>: что такое оркестратор, контейнер, как он пакуется, как работает сборка кода. В общем, для него Docker и Kubernetes не пустые слова.</li> </ul> <p><strong>Круто, если ты также:</strong></p> <ul> <li>Знаком с асинхронкой и хочешь в ней прокачаться;</li> <li>На базовом (даже теоретическом) уровне знаком с NoSQL;</li> </ul> <strong>Условия:</strong> <ul> <li> <p>Официальное трудоустройство по ТК РФ и белая зарплата;</p> </li> <li> <p>Полностью удаленный формат работы;</p> </li> <li> <p>Высоконагруженные сервисы и команда профессионалов;</p> </li> <li> <p>ДМС и бонусы в виде дисконт-карты со скидками</p> </li> </ul> <p> </p> <p>Это отличный прыжок в карьере и возможность прокачать свои скиллы для начинающих айтишников! Давайте общаться!</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "ELMA"
+        },
+        {
+            "name": "Удаленная работа"
+        },
+        {
+            "name": "NoSQL"
+        },
+        {
+            "name": "API"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Желание расти и развиваться"
+        },
+        {
+            "name": "Системность"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "1111058",
+        "name": "Hi, Rockits!",
+        "url": "https://api.hh.ru/employers/1111058?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/1111058",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/857842.jpg",
+            "90": "https://hhcdn.ru/employer-logo/3872243.jpeg",
+            "240": "https://hhcdn.ru/employer-logo/3872244.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1111058&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-13T17:46:30+0300",
+    "created_at": "2023-03-13T17:46:30+0300",
+    "initial_created_at": "2023-03-13T17:46:30+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77996426",
+    "has_test": true,
+    "test": {
+        "required": true
+    },
+    "alternate_url": "https://hh.ru/vacancy/77996426",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

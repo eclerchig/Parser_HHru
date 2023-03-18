@@ -1,0 +1,103 @@
+{
+    "id": "76891919",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Backend разработчик (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "35",
+        "name": "Иркутск",
+        "url": "https://api.hh.ru/areas/35?host=hh.ru"
+    },
+    "salary": {
+        "from": 150000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>CLO.ru — новый облачный проект команды FirstVDS (<em>«Хостер года» 2021 и 2022<br />Нац.премия ЦОДы.рф</em>), запущенный в апреле 2020.<br /><br />Мы применили весь опыт, накопленный за 20 лет работы в хостинге, чтобы создать надежный и удобный облачный сервис. Сейчас CLO — готовое и доступное по цене облачное решение, помогающее нашим клиентам решать ежедневные задачи.<br /><br />Дальше будет интереснее, присоединяйтесь!</p> <p><strong>Обязанности:</strong></p> <ul> <li>Участие в разработке бэкенда облачного сервиса.</li> </ul> <p><strong>Требования:</strong></p> <ul> <li><strong>Ищем уверенного middle-разработчика, который уже имеет релевантный опыт в коммерческой разработке и может самостоятельно выполнять сложные задачи</strong></li> <li>Уверенные знания python3.6 (желателен опыт коммерческой разработки от 2 лет)</li> <li>Опыт работы с Flask/Django</li> <li>Опыт работы с Celery/RabbitMQ</li> <li>Опыт работы с рбд, знание SQL и SQLAlchemy</li> <li>Умение пользоваться Git</li> <li>Умение писать тесты, знание pytest/unittest</li> <li>Базовые знания Linux</li> <li>Базовые знания Nginx</li> <li>Желание участвовать в оптимизации и качественном улучшении кода</li> <li>Умение писать читаемый, документированный код</li> </ul> <p><strong>Будет плюсом:</strong></p> <ul> <li>Опыт работы с Docker</li> <li>Знание протокола WebSocket</li> <li>Знание любых асинхронных фреймворков/asyncio</li> <li> <p><strong>Отдельным плюсом будет ссылка на репозиторий с примером кода.</strong></p> </li> </ul> <p><strong>Условия:</strong></p> <ul> <li>Работа над продуктовым функционалом облачной платформы.</li> <li>Возможность влиять на развитие проекта.</li> <li>Возможность карьерного и профессионального роста: дружеское плечо/пинки/наставления от старших товарищей.</li> <li>Приятный профессиональный коллектив.</li> <li>Крутые масштабные тимбилдинги с оплатой проезда.</li> <li>Официальное трудоустройство.</li> <li>Достойная белая зарплата, обсуждается на собеседовании исходя из уровня кандидата.</li> <li>ДМС</li> <li>Премии по результатам работы.</li> </ul> <p>Присоединяйтесь к дружному коллективу одной из самых крутых федеральных IT-компаний — напишите нам!</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Django Framework"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "4837179",
+        "name": "ИОТ",
+        "url": "https://api.hh.ru/employers/4837179?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/4837179",
+        "logo_urls": {
+            "original": "https://hhcdn.ru/employer-logo-original/765450.png",
+            "90": "https://hhcdn.ru/employer-logo/3502757.png",
+            "240": "https://hhcdn.ru/employer-logo/3502758.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4837179&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-09T08:01:39+0300",
+    "created_at": "2023-03-09T08:01:39+0300",
+    "initial_created_at": "2023-02-13T05:33:52+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=76891919",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/76891919",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

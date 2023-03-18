@@ -1,0 +1,127 @@
+{
+    "id": "76140465",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Middle backend-разработчик Python",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "1-й переулок Тружеников",
+        "building": "16с17",
+        "lat": 55.737182,
+        "lng": 37.57254,
+        "description": null,
+        "raw": "Москва, 1-й переулок Тружеников, 16с17",
+        "metro": {
+            "station_name": "Киевская",
+            "line_name": "Кольцевая",
+            "station_id": "5.49",
+            "line_id": "5",
+            "lat": 55.74361,
+            "lng": 37.56735
+        },
+        "metro_stations": [
+            {
+                "station_name": "Киевская",
+                "line_name": "Кольцевая",
+                "station_id": "5.49",
+                "line_id": "5",
+                "lat": 55.74361,
+                "lng": 37.56735
+            }
+        ]
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><strong>О нас</strong></p> <p>Компания - системный интегратор. Наше подразделение занимается заказной разработкой софта. Мы работаем с интересными проектами и решаем нестандартные задачи из различных областей бизнеса, таких как:</p> <ul> <li> <p>информационная безопасность</p> </li> <li> <p>видеонаблюдение</p> </li> <li> <p>электронные архивы</p> </li> <li> <p>мониторинг IT инфраструктуры</p> </li> </ul> <p>Сейчас мы ищем Python-разработчика для работы над серверной частью наших проектов. Кроме того, сейчас мы работаем над созданием нового продукта в области видеонаблюдения и видеоаналитики на базе ИИ.</p> <p><strong>Чем предстоит заниматься:</strong></p> <ul> <li> <p>Разрабатывать backend web-приложения клиентской части.</p> </li> <li> <p>Развивать и улучшать существующие решения.</p> </li> <li> <p>Участвовать в разработке аналитической части сервера обработки видео.</p> <p> </p> </li> </ul> <p><strong>Наш стек технологий:</strong></p> <ul> <li> <p>Разработка на Python 3.9+</p> </li> <li> <p>Web-фреймворки aiohttp, FastAPI</p> </li> <li> <p>ORM SqlAlchemy</p> </li> <li> <p>Брокер очередей RabbitMQ</p> </li> <li> <p>PostgreSQL, Redis, ElasticSearch</p> </li> <li>Система контроля версий git (внутренний сервер GitLab)</li> <li> <p>Баг-трекер Jira, ведение документации в Confluence</p> </li> <li> <p>CI/CD с помощью Jenkins и TeamCity, а также с применением Docker и Ansible</p> </li> <li> <p>Мы всегда открыты и рады новым идеям и конструктивным предложениям</p> <p> </p> <p> </p> <p><strong>Наша команда:</strong></p> </li> <li> <p>небольшой, но сильный и дружный (и растущий!) коллектив backend-разработчиков из 7 человек</p> </li> <li> <p>аналитики</p> </li> <li> <p>тестировщики</p> </li> <li> <p>frontend-разработчики</p> </li> <li> <p>project-менеджер</p> </li> </ul> <p><strong>Что бы мы хотели видеть в кандидате:</strong></p> <ul> <li> <p>опыт коммерческой разработки на Python от 3 лет</p> </li> <li> <p>опыт разработки backend web-приложений, в том числе с использованием асинхронных фреймворков</p> </li> <li> <p>опыт разработки с применением методологии TDD (pytest framework)</p> </li> </ul> <p><strong>Дополнительные условия:</strong></p> <ul> <li> <p>трудоустройство в соответствии с законодательством РФ</p> </li> <li> <p>конкурентоспособная официальная заработная плата (обсуждается после собеседования, зависит от уровня сложности задач, которые может решать сотрудник)</p> </li> <li> <p><strong>возможна удаленная работа с полной занятостью. Частичная занятость на этой позиции не предусмотрена</strong></p> </li> <li> <p>офис – центр (пешая доступность от ст. метро Киевская)</p> </li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "OpenCV"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Docker"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "17520",
+        "name": "ИТЕРАНЕТ",
+        "url": "https://api.hh.ru/employers/17520?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/17520",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/1251701.jpeg",
+            "90": "https://hhcdn.ru/employer-logo/1251700.jpeg",
+            "original": "https://hhcdn.ru/employer-logo-original/117302.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=17520&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-16T12:47:48+0300",
+    "created_at": "2023-03-16T12:47:48+0300",
+    "initial_created_at": "2023-01-24T12:07:06+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=76140465",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/76140465",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

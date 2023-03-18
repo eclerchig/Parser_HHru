@@ -1,0 +1,109 @@
+{
+    "id": "77979533",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Senior Python разработчик",
+    "insider_interview": null,
+    "response_letter_required": true,
+    "area": {
+        "id": "2",
+        "name": "Санкт-Петербург",
+        "url": "https://api.hh.ru/areas/2?host=hh.ru"
+    },
+    "salary": {
+        "from": 4000,
+        "to": 6000,
+        "currency": "USD",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": null,
+    "allow_messages": true,
+    "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p>CiPlay разрабатывает web-сервисы для международного рынок различной направленности, включающие в себя интеграции сторонних продуктов, платежных систем и пр. а. Мы хотим развивать свои технологии и потому ищем разработчиков.</p> <p>Команда — распределенная, все работают примерно в одно время: когда в Москве день.</p> <p>На данный момент мы набираем в команду удаленных программистов для ускорения реализации задач. Мы ищем человека близкого нам по духу, который погрузится с головой в наши проекты.</p> <p>Важными аспектами эффективной работы в нашей команде являются: взаимопонимание и умение проявлять эмпатию, умение достигать результат поставленной задачи тем способом, который считаешь нужным, при этом, наиболее эффективным, переводить некоторые запросы заказчиков с человеческого на язык разработки:)</p> <p>Программирование у нас не превратится в рутину. Мы запросто ставим сложные задачи и ожидаем, что для их решения вы самостоятельно разберетесь в той области знаний, о которой раньше даже и не слышали. Творческий подход, нестандартные решения приветствуются! При необходимости и сможешь влиять на все продукты компании.</p> <p> </p> <p>Обязанности:</p> <p>разрабатывать web-сервисы на Python;<br />интеграции сторонних API (платежки и пр.);<br />настройка серверов, работа с доменами;<br />работа с БД;</p> <p>разработка фич для бэк офиса;</p> <p>взаимодействие с веб-разработчиками;<br />участие в полном цикле разработки - проектирование, программирование, тестирование, поддержка;</p> <p>контролирование качества кода;</p> <p>настройка СI/CD.</p> <p>Требования:</p> <p>уверенное знание Python 3, FastAPI, Django (DRF);</p> <p>опыт коммерческой разработки в web;</p> <p>классические алгоритмы и структуры данных;</p> <p>знание HTML/CSS/JS на базовом уровне;</p> <p>знание сетевых протоколов HTTP, WebSocket;<br />понимание иерархических структур и БД;</p> <p>умение разбираться в чужом коде;</p> <p>опыт работы с OC Linux;</p> <p>практический опыт автоматизации развертывания приложений;</p> <p>коммуникативные навыки;</p> <p>ответственность, активность и умение работать в команде;</p> <p>желание обучаться и расти;<br />опыт работы с Docker;</p> <p>опыт работы с системами контроля версий Git;</p> <p>английский язык на техническом уровне.</p> <p>Мы оценим, если вы:</p> <p>имеете опыт разработки на Python: Flask, SQLAlchemy, Celery, Tornado;</p> <p>знакомы со Scrapy и Falcon;</p> <p>умеете работать с Redis и RabbitMQ;</p> <p>знаете Docker Compose и Kubernetes;</p> <p>понимаете Clean Architecture и DDD;</p> <p>знаете регулярные выражения;</p> <p>умеете писать тесты на pytest;</p> <p>знание стандартной библиотеки языка;<br />знание SQL, опыт работы с PostgreSQL, продвинутое использование ORM;</p> <p>опыт разработки сложных проектов.</p> <p><br />Ключевые навыки:</p> <p>Python3<br /><br />FastApi</p> <p>Django Framework</p> <p>Django REST Framework</p> <p>celery</p> <p>redis</p> <p>PostgreSQL</p> <p>Nginx</p> <p>uWSGI/gunicorn</p> <p>Docker</p> <p>docker-compose</p> <p> </p> <p>Условия:</p> <p>график работы: 5/2 с гибким рабочим днем;<br />удаленная работа;</p> <p>высокий уровень свободы — есть возможность проверять свои гипотезы, экспериментировать и реально влиять на конечный продукт;</p> <p>дружный коллектив​​ и адекватное руководство.</p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "FastAPI"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "6104526",
+        "name": "CiPlay",
+        "url": "https://api.hh.ru/employers/6104526?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/6104526",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/4242021.png",
+            "90": "https://hhcdn.ru/employer-logo/4242020.png",
+            "original": "https://hhcdn.ru/employer-logo-original/950371.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6104526&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-13T14:09:13+0300",
+    "created_at": "2023-03-13T14:09:13+0300",
+    "initial_created_at": "2023-03-13T14:09:13+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77979533",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77979533",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}

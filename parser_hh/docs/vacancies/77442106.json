@@ -1,0 +1,108 @@
+{
+    "id": "77442106",
+    "premium": false,
+    "billing_type": {
+        "id": "standard_plus",
+        "name": "Стандарт плюс"
+    },
+    "relations": [],
+    "name": "Senior Backend Developer (Python)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1?host=hh.ru"
+    },
+    "salary": null,
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Москва",
+        "street": "Зубовский бульвар",
+        "building": "27с3",
+        "lat": 55.7366,
+        "lng": 37.588099,
+        "description": null,
+        "raw": "Москва, Зубовский бульвар, 27с3",
+        "metro": null,
+        "metro_stations": []
+    },
+    "allow_messages": true,
+    "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+    },
+    "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<p><em>Мы – компания <strong>Sensemachine</strong> - лидеры на российском рынке нейробиологических исследований. Изучаем эмоциональный отклик на рекламные ролики, ТВ контент, прототипы приложений и многое другое, вплоть до дизайна интерьера банков с использованием собственной facial coding платформы. Являемся сердцем крупнейшей в Европе UX - лаборатории Альфа – банка и работаем с самыми большими клиентами российского рынка: Альфа-банк, Мтс, Danone, Ozon, Мail, Lamoda, Самокат, Sokolov и др.</em></p> <p><em>Компания представляет из себя команду людей, по-настоящему увлечённых наукой и её технической интерпретацией, которая делает уникальный продукт, меняющий представление о познании и востребованный самыми крупными игроками. Этот продукт показывает рост в одном из наиболее востребованных сегментов современного наукоёмкого бизнеса - нейробиологических исследованиях, которые до 2024 года по оценке Gartner будут применяться в 50% всех маркетинговых тестов.</em></p> <p><em>Мы строим настоящий двигатель того, как будут совершаться открытия о человеческом восприятии в ближайшее время и уверены, что талантливые и открытые знаниям люди – это то, что нам нужно на этом пути)</em></p> <p>На данном этапе, мы в поиске профессионального<strong> Senior Backend Developer </strong>в нашу драйвовую команду.</p> <p><strong>Ваша ключевая задача:</strong></p> <ul> <li>Разработка функциональной части продукта</li> </ul> <p><strong>Ваши ключевые навыки:</strong></p> <ul> <li>Опыт работы с технологиями: Python, Django, DRF, PostgreSQL, RabbitMQ, Docker, Async Python</li> <li>Коммерческий опыт в разработке от 3 лет</li> <li>Опыт работы в качестве DevOps будет плюсом</li> </ul> <p><strong>Что предлагаем мы:</strong></p> <ul> <li>Амбициозные задачи, масштабные проекты и возможность создать по-настоящему уникальный продукт, который сможет быть стандартом индустрии</li> <li><strong>Продуктовую команду</strong> мечты – все ребята ладят с методами изучения данных и ходят не с проблемами, но с предложениями</li> <li>Всю нужную инфраструктуру и поддержку в работе</li> <li>Участие в работе крупнейшей в Европе UX лаборатории</li> <li>Оплата обучения и тренингов для вашего профессионального роста</li> <li>Белая заработная плата, фиксированный оклад</li> <li><strong>Удаленный формат </strong>работы с возможностью посещения офиса</li> <li>Уютный &quot;pet-frendly&quot; офис, в 2 минутах от метро Парк Культуры (да, можно приносить/приводить с собой пушистых любимцев)</li> <li><strong>Официальное трудоустройство</strong> с первого рабочего дня, полное соблюдение ТК РФ</li> <li> <p>Отсутствие строгого дресс-кода и бюрократии, открытость и лояльность руководства, общение на - &quot;ты&quot;</p> </li> </ul> <p>Мы всегда готовы принять в команду талантливых и перспективных сотрудников, готовых стать частью нашей классной команды и делать мир рекламы лучше с помощью нашей платформы. В свою очередь мы готовы делится своим опытом, экспертностью, всячески направлять и поддерживать.</p> <p><em>Ждем ваш отклик!</em></p> <p> </p>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Django Framework"
+        },
+        {
+            "name": "PostgreSQL"
+        },
+        {
+            "name": "RabbitMQ"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [],
+    "professional_roles": [
+        {
+            "id": "96",
+            "name": "Программист, разработчик"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "5914441",
+        "name": "Sensemachine",
+        "url": "https://api.hh.ru/employers/5914441?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/5914441",
+        "logo_urls": {
+            "240": "https://hhcdn.ru/employer-logo/5824338.png",
+            "90": "https://hhcdn.ru/employer-logo/5824337.png",
+            "original": "https://hhcdn.ru/employer-logo-original/1050921.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5914441&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2023-03-17T16:29:28+0300",
+    "created_at": "2023-03-17T16:29:28+0300",
+    "initial_created_at": "2023-02-27T16:29:28+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=77442106",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/77442106",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "languages": []
+}
